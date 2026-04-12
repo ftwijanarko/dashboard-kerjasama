@@ -1,0 +1,45 @@
+worker_processes auto;
+
+events {
+    worker_connections 1024;
+}
+
+http {
+    include       /etc/nginx/mime.types;
+    default_type  application/octet-stream;
+
+    sendfile    on;
+    keepalive_timeout 65;
+    gzip on;
+    gzip_types text/plain text/css application/javascript application/json;
+
+    server {
+        listen ${PORT};
+        server_name _;
+
+        location / {
+            root   /usr/share/nginx/html;
+            index  index.html;
+            try_files $uri $uri/ /index.html;
+        }
+
+        # Reverse proxy ke SIPEDAS (mengatasi CORS)
+        location /sipedas/ {
+            proxy_pass https://apprssm.rssoedono.jatimprov.go.id/sipedas/;
+            proxy_set_header Host apprssm.rssoedono.jatimprov.go.id;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header Referer https://apprssm.rssoedono.jatimprov.go.id/;
+            proxy_ssl_server_name on;
+
+            proxy_cookie_domain apprssm.rssoedono.jatimprov.go.id $host;
+            proxy_cookie_path /sipedas/ /sipedas/;
+
+            proxy_redirect https://apprssm.rssoedono.jatimprov.go.id/sipedas/ /sipedas/;
+        }
+
+        error_page 500 502 503 504 /50x.html;
+        location = /50x.html {
+            root /usr/share/nginx/html;
+        }
+    }
+}
