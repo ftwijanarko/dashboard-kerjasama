@@ -1,7 +1,7 @@
 FROM nginx:stable-alpine
 
-# Hapus default config
-RUN rm /etc/nginx/conf.d/default.conf /etc/nginx/nginx.conf
+# Hapus default server config (nginx.conf tetap dipakai)
+RUN rm /etc/nginx/conf.d/default.conf
 
 # Copy nginx config template (menggunakan $PORT dari Render)
 COPY nginx.conf.template /etc/nginx/templates/nginx.conf.template
