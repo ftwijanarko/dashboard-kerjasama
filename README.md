@@ -199,8 +199,8 @@ const SIPEDAS_BASE_URL = '/sipedas'; // Path relatif melalui Nginx proxy
 
 ---
 
-## 👤 Pembuat
+## 👤 Updated By
 
-**Rasyid** — RSUD dr. Soedono Madiun
+**Fajar Trio Wijanarko** — RSUD dr. Soedono Madiun
 
 &copy; 2025 RSUD dr. Soedono Madiun. All rights reserved.
