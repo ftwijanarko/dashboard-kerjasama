@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Kerjasama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <img src="logorssmweb.png" alt="Logo RSUD dr. Soedono Madiun" class="header-logo">
+        </div>
+    </header>
+
+    <div class="container">
+        <a href="index.html" class="back-link">&larr; Kembali ke Dashboard</a>
+        <h1 id="detail-title">Memuat...</h1>
+
+        <div class="controls">
+            <input type="text" id="search-box" placeholder="Cari di dalam kategori ini...">
+        </div>
+
+        <div id="loading">Memuat data, harap tunggu...</div>
+
+        <div class="table-container">
+            <table id="kerjasama-table">
+                <thead>
+                    <tr>
+                        <th>Nama Mitra</th>
+                        <th>Judul Kerjasama</th>
+                        <th>Tanggal Selesai</th>
+                        <th>Status</th>
+                        <th>Sumber Data</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                    </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Rasyid at  RSUD dr. Soedono Madiun. All rights reserved.</p>
+    </footer>
+
+    <div id="detail-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 class="modal-title">Detail Kerjasama</h2>
+            <dl class="modal-grid">
+                <dt>Nama Mitra 1</dt><dd id="modal-mitra1">-</dd>
+                <dt>Nama Mitra 2</dt><dd id="modal-mitra2">-</dd>
+                <dt>Judul Kerjasama</dt><dd id="modal-judul-kerjasama">-</dd>
+                <dt>Dasar Hukum Mitra 1</dt><dd id="modal-dsm1">-</dd>
+                <dt>Dasar Hukum Mitra 2</dt><dd id="modal-dsm2">-</dd>
+                <dt>Dasar Hukum RS</dt><dd id="modal-dsrs">-</dd>
+                <dt>Tanggal Mulai</dt><dd id="modal-tgl-mulai">-</dd>
+                <dt>Tanggal Selesai</dt><dd id="modal-tgl-selesai">-</dd>
+                <dt>Reminder 3 Bulan</dt><dd id="modal-reminder">-</dd>
+                <dt>Keterangan</dt><dd id="modal-keterangan">-</dd>
+            </dl>
+        </div>
+    </div>
+
+    <div id="file-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-file-btn">&times;</span>
+            <h2 class="modal-title">Dokumen Kerjasama</h2>
+            <div id="file-list"></div>
+        </div>
+    </div>
+
+    <script src="sipedas.js"></script>
+    <script src="detail-script.js"></script>
+</body>
+</html>

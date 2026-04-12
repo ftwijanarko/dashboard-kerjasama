@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Reminder Kerjasama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <img src="logorssmweb.png" alt="Logo RSUD dr. Soedono Madiun" class="header-logo">
+            </div>
+    </header>
+
+    <div class="container">
+        <h1>Dashboard Reminder Kerjasama</h1>
+        <p>Menampilkan data kerjasama dari kategori Klinis & Manajemen. Klik pada salah satu kategori di bawah untuk melihat detailnya.</p>
+        
+        <div class="summary-container">
+            <a href="detail.html">
+                <div class="stat-card"><h2>Total Kerjasama</h2><p id="total-kerjasama">-</p></div>
+            </a>
+            <a href="detail.html?status=Perlu Proses Perpanjangan">
+                <div class="stat-card"><h2>Perlu Perpanjangan</h2><p id="perlu-perpanjangan">-</p></div>
+            </a>
+            <a href="detail.html?status=Berjalan">
+                <div class="stat-card"><h2>Status Berjalan</h2><p id="status-berjalan">-</p></div>
+            </a>
+            <a href="detail.html?status=Proses Oleh TU">
+                <div class="stat-card"><h2>Proses Oleh TU</h2><p id="proses-tu">-</p></div>
+            </a>
+            <a href="detail.html?status=Proses Mitra">
+                <div class="stat-card"><h2>Proses Mitra</h2><p id="proses-mitra">-</p></div>
+            </a>
+            <a href="detail.html?status=Tidak Diperpanjang">
+                <div class="stat-card"><h2>Tidak Diperpanjang</h2><p id="tidak-diperpanjang">-</p></div>
+            </a>
+            <a href="detail.html?kategori=Klinis">
+                <div class="stat-card"><h2>Kerjasama Klinis</h2><p id="total-klinis">-</p></div>
+            </a>
+            <a href="detail.html?kategori=Manajemen">
+                <div class="stat-card"><h2>Kerjasama Manajemen</h2><p id="total-manajemen">-</p></div>
+            </a>
+            </div>
+
+        <div class="controls"><input type="text" id="search-box" placeholder="Cari berdasarkan mitra atau judul..."></div>
+        <div id="loading">Memuat data, harap tunggu...</div>
+        
+        <div class="table-container">
+            <table id="kerjasama-table">
+                <thead>
+                    <tr>
+                        <th data-sort="mitra">Nama Mitra <span class="sort-icon"></span></th>
+                        <th data-sort="judul">Judul Kerjasama <span class="sort-icon"></span></th>
+                        <th data-sort="tanggalSelesai">Tanggal Selesai <span class="sort-icon"></span></th>
+                        <th data-sort="status">Status <span class="sort-icon"></span></th>
+                        <th data-sort="sumberSheet">Sumber Data <span class="sort-icon"></span></th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body"></tbody>
+            </table>
+        </div>
+
+        <div class="table-footer">
+            <div id="showing-entries"></div>
+            <div class="pagination">
+                <button id="prev-btn" class="pagination-btn">&laquo; Previous</button>
+                <div id="page-numbers"></div>
+                <button id="next-btn" class="pagination-btn">Next &raquo;</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="spreadsheet-info-section">
+            <p>Data yang ditampilkan di halaman ini secara otomatis diambil dari Google Spreadsheet Reminder Kerjasama RSUD dr. Soedono. Setiap pembaruan yang Anda lakukan pada spreadsheet akan langsung tercermin di web ini.</p>
+            <a href="https://docs.google.com/spreadsheets/d/1sKY7LS9IsiCp8jeTIcus_BQs5-3i5xG7HFGnEg4Pla8/edit?usp=sharing" target="_blank" class="btn-spreadsheet">Buka Spreadsheet Sumber</a>
+        </div>
+
+    </div>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Rasyid at RSUD dr. Soedono Madiun. All rights reserved.</p>
+    </footer>
+
+    <div id="detail-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 class="modal-title">Detail Kerjasama</h2>
+            <dl class="modal-grid">
+                <dt>Nama Mitra 1</dt><dd id="modal-mitra1">-</dd>
+                <dt>Nama Mitra 2</dt><dd id="modal-mitra2">-</dd>
+                <dt>Judul Kerjasama</dt><dd id="modal-judul-kerjasama">-</dd>
+                <dt>Dasar Hukum Mitra 1</dt><dd id="modal-dsm1">-</dd>
+                <dt>Dasar Hukum Mitra 2</dt><dd id="modal-dsm2">-</dd>
+                <dt>Dasar Hukum RS</dt><dd id="modal-dsrs">-</dd>
+                <dt>Tanggal Mulai</dt><dd id="modal-tgl-mulai">-</dd>
+                <dt>Tanggal Selesai</dt><dd id="modal-tgl-selesai">-</dd>
+                <dt>Reminder 3 Bulan</dt><dd id="modal-reminder">-</dd>
+                <dt>Keterangan</dt><dd id="modal-keterangan">-</dd>
+            </dl>
+        </div>
+    </div>
+
+    <div id="file-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-file-btn">&times;</span>
+            <h2 class="modal-title">Dokumen Kerjasama</h2>
+            <div id="file-list"></div>
+        </div>
+    </div>
+
+    <script src="sipedas.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,537 @@
+/* General Styling */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    margin: 0;
+    padding: 10px;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+h1 {
+    color: #2c3e50;
+    margin-top: 0;
+}
+
+/* Penambahan: Menghilangkan garis bawah dari semua link */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Summary Cards Grid - Responsive */
+.summary-container {
+    display: grid;
+    /* Mulai dengan 2 kolom di layar kecil ke sedang */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Menggunakan auto-fit untuk responsivitas yang lebih baik */
+    gap: 15px;
+    margin-bottom: 30px;
+    justify-content: center;
+    content: '';
+    flex-grow: 1; /* Tambahkan ini untuk memusatkan item grid */
+}
+
+/* Menjadi 3 kolom di layar yang lebih besar */
+@media (min-width: 900px) {
+    .summary-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+/* Menjadi 1 kolom di layar sangat kecil (ponsel) */
+@media (max-width: 500px) {
+    .summary-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.stat-card {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    /* Penambahan: Transisi untuk efek hover yang mulus */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Penambahan: Efek hover pada kartu */
+.stat-link:hover .stat-card {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.stat-card h2 {
+    margin: 0 0 10px 0;
+    font-size: 1em;
+    color: #7f8c8d;
+}
+.stat-card p {
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Controls & Table */
+.controls {
+    margin-bottom: 20px;
+}
+#search-box {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#loading {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+    color: #777;
+}
+
+/* Membuat tabel bisa di-scroll ke samping di layar kecil */
+.table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Kunci untuk memotong teks (ellipsis) */
+}
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+thead th {
+    background-color: #34495e;
+    color: #fff;
+}
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Gaya untuk memotong teks yang panjang */
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 250px; /* Atur lebar maksimum kolom, sesuaikan jika perlu */
+}
+
+/* Status & Action Button */
+.status-pill {
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+}
+.status-perlu-proses-perpanjangan { background-color: #e67e22; }
+.status-berjalan { background-color: #27ae60; }
+.status-proses-oleh-tu { background-color: #f1c40f; color: #333; }
+.status-proses-mitra { background-color: #e74c3c; }
+.status-tidak-diperpanjang { background-color: #34495e; }
+.status-default { background-color: #95a5a6; }
+
+.detail-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+.detail-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Modal Popup Styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px 30px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 8px;
+    position: relative;
+    animation: slideDown 0.4s;
+}
+@keyframes slideDown {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close-btn:hover, .close-btn:focus {
+    color: black;
+    text-decoration: none;
+}
+.modal-title {
+    margin-top: 0;
+    color: #2c3e50;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+.modal-grid {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 12px 20px;
+    margin-top: 20px;
+}
+.modal-grid dt {
+    font-weight: bold;
+    color: #7f8c8d;
+}
+.modal-grid dd {
+    margin: 0;
+    word-break: break-word;
+}
+/* Table Footer & Pagination */
+.table-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 10px; /* Space between elements */
+}
+
+#showing-entries {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.pagination-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.2s ease;
+}
+
+.pagination-btn:hover:not(:disabled) {
+    background-color: #2980b9;
+}
+
+.pagination-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.page-number {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 2px;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+    font-size: 0.9em;
+}
+
+.page-number:hover {
+    background-color: #f1f1f1;
+}
+
+.page-number.active {
+    background-color: #3498db;
+    color: white;
+    border-color: #3498db;
+    font-weight: bold;
+}
+
+/* Sorting Icons */
+th[data-sort] {
+    cursor: pointer;
+    position: relative; /* For positioning the sort icon */
+    padding-right: 25px; /* Make space for the icon */
+}
+
+.sort-icon {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    opacity: 0.4; /* Default subtle icon */
+    transition: opacity 0.2s ease;
+}
+
+th[data-sort]:hover .sort-icon {
+    opacity: 0.7; /* More visible on hover */
+}
+
+.sort-icon.asc {
+    border-bottom: 5px solid #fff; /* Up arrow for ascending */
+    opacity: 1;
+}
+
+.sort-icon.desc {
+    border-top: 5px solid #fff; /* Down arrow for descending */
+    opacity: 1;
+}
+
+/* Responsive adjustments for table footer */
+@media (max-width: 600px) {
+    .table-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .pagination {
+        margin-top: 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .page-number, .pagination-btn {
+        margin-bottom: 5px; /* Add some space when wrapping */
+    }
+}
+/* Header Styling */
+.main-header {
+    background-color: #fff; /* Warna latar belakang header */
+    border-bottom: 1px solid #ddd; /* Garis bawah pemisah */
+    padding: 10px 20px;
+    margin-bottom: 20px; /* Jarak antara header dan konten utama */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Sedikit bayangan */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Logo di kiri */
+}
+
+.header-content {
+    max-width: 1200px; /* Lebar konten header agar sejajar dengan container */
+    margin: 0 auto; /* Tengah konten */
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    height: 50px; /* Tinggi logo, sesuaikan jika perlu */
+    max-width: 100%; /* Pastikan logo responsif */
+    object-fit: contain; /* Memastikan logo tidak terdistorsi */
+}
+
+/* Optional: Jika Anda menambahkan judul di header */
+.header-title {
+    margin-left: 15px;
+    color: #2c3e50;
+    font-size: 1.5em;
+}
+
+/* Footer Styling */
+.main-footer {
+    background-color: #34495e; /* Warna latar belakang footer, bisa disesuaikan */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px; /* Jarak antara konten utama dan footer */
+    border-top: 1px solid #4a667d; /* Garis atas pemisah */
+}
+
+.main-footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/* Penyesuaian agar konten utama tidak menempel pada header/footer */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Memastikan footer selalu di bawah halaman */
+}
+
+.container {
+    flex-grow: 1; /* Kontainer utama akan mengisi ruang yang tersedia */
+}
+/* Spreadsheet Info Section */
+.spreadsheet-info-section {
+    background-color: #f8f8f8; /* Biru sangat muda */
+    border: 1px solid #e0e0e0; /* Border biru */
+    border-radius: 8px;
+    padding: 25px;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.spreadsheet-info-section p {
+    font-size: 1.1em;
+    color: #666; /* Biru medium */
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.btn-spreadsheet {
+    display: inline-block;
+    background-color: #3498db; /* Menggunakan warna biru tombol default dari situs Anda */
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.btn-spreadsheet:hover {
+    background-color: #2980b9; /* Warna biru lebih gelap saat hover */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Penyesuaian responsif untuk section ini */
+@media (max-width: 600px) {
+    .spreadsheet-info-section {
+        padding: 15px;
+    }
+    .spreadsheet-info-section p {
+        font-size: 1em;
+    }
+    .btn-spreadsheet {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+}
+
+/* Document Button */
+.doc-btn {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-left: 4px;
+}
+.doc-btn:hover {
+    background-color: #219a52;
+}
+
+/* File Modal Items */
+.file-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+}
+.file-item:last-child {
+    border-bottom: none;
+}
+.file-name {
+    flex: 1;
+    margin-right: 15px;
+    word-break: break-all;
+    font-size: 0.95em;
+    color: #333;
+}
+.file-actions {
+    display: flex;
+    gap: 8px;
+    flex-shrink: 0;
+}
+.file-btn {
+    padding: 6px 14px;
+    border-radius: 5px;
+    font-size: 0.85em;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.2s ease;
+}
+.file-btn-lihat {
+    background-color: #3498db;
+}
+.file-btn-lihat:hover {
+    background-color: #2980b9;
+}
+.file-btn-download {
+    background-color: #27ae60;
+}
+.file-btn-download:hover {
+    background-color: #219a52;
+}
+.file-empty {
+    text-align: center;
+    color: #999;
+    padding: 20px 0;
+}
+.file-login-notice {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff3cd;
+    border: 1px solid #ffc107;
+    border-radius: 8px;
+    color: #856404;
+}
+.file-login-notice p {
+    margin: 5px 0;
+}
+.close-file-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close-file-btn:hover {
+    color: black;
+}
+
+@media (max-width: 500px) {
+    .file-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .file-actions {
+        width: 100%;
+    }
+    .file-btn {
+        flex: 1;
+    }
+}
