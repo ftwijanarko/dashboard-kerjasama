@@ -489,12 +489,7 @@ body {
 .file-btn-lihat:hover {
     background-color: #2980b9;
 }
-.file-btn-download {
-    background-color: #27ae60;
-}
-.file-btn-download:hover {
-    background-color: #219a52;
-}
+
 .file-empty {
     text-align: center;
     color: #999;
