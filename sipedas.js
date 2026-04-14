@@ -18,6 +18,24 @@ function _escapeAttr(str) {
     return str.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/'/g, '&#39;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
+function _downloadFile(url, filename) {
+    fetch(url)
+        .then(res => res.blob())
+        .then(blob => {
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(blob);
+            a.download = filename || 'document.pdf';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(a.href);
+        })
+        .catch(() => {
+            // Fallback: open in new tab if fetch fails (e.g. CORS)
+            window.open(url, '_blank');
+        });
+}
+
 /**
  * Parse string URL yang dipisahkan koma menjadi array file objects
  */
@@ -52,7 +70,7 @@ function showFileModal(files) {
                 '<div class="file-actions">' +
                 '<a href="' + safeUrl + '" class="file-btn file-btn-lihat" ' +
                 'onclick="window.open(this.href,\'docview\',\'height=600,width=800,scrollbars=yes,resizable=1\'); return false;">Lihat</a>' +
-                '<a href="' + safeUrl + '" target="_blank" class="file-btn file-btn-download">Download</a>' +
+                '<a href="' + safeUrl + '" class="file-btn file-btn-download" onclick="_downloadFile(this.href, \'' + safeName.replace(/'/g, "\\'") + '\'); return false;">Download</a>' +
                 '</div></div>';
         }).join('');
     }
