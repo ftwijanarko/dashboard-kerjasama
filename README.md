@@ -1,6 +1,6 @@
 # Dashboard Reminder Kerjasama — RSUD dr. Soedono Madiun
 
-Dashboard berbasis web untuk memantau dan mengelola data kerjasama (partnership) di **RSUD dr. Soedono Madiun**. Data ditarik secara real-time dari Google Spreadsheet melalui Google Apps Script Web App, dengan integrasi dokumen dari aplikasi **SIPEDAS**.
+Dashboard berbasis web untuk memantau dan mengelola data kerjasama (partnership) di **RSUD dr. Soedono Madiun**. Data ditarik secara real-time dari Google Spreadsheet melalui Google Apps Script Web App, termasuk URL dokumen kerjasama.
 
 ---
 
@@ -24,7 +24,7 @@ Aplikasi ini menyediakan antarmuka visual untuk memonitor seluruh perjanjian ker
 - **Sorting Multi-kolom** — Klik header tabel untuk mengurutkan data secara ascending/descending.
 - **Paginasi** — Navigasi halaman dengan 20 baris per halaman.
 - **Modal Detail** — Klik tombol "Detail" untuk melihat informasi lengkap kerjasama (dasar hukum, tanggal mulai/selesai, reminder 3 bulan, keterangan).
-- **Integrasi Dokumen SIPEDAS** — Klik tombol "Dokumen" untuk melihat dan mengunduh berkas kerjasama dari SIPEDAS. Pencarian dokumen dilakukan berdasarkan nomor dasar hukum mitra.
+- **Tombol Dokumen** — Klik tombol "Dokumen" untuk melihat dan mengunduh berkas kerjasama (PDF). URL dokumen diambil langsung dari kolom URL di Google Spreadsheet.
 - **Halaman Detail per Kategori/Status** — Klik kartu ringkasan untuk masuk ke halaman detail yang sudah difilter.
 - **Docker-ready** — Tersedia Dockerfile untuk deployment (termasuk di Render.com).
 - **Responsif** — Tampilan menyesuaikan layar desktop, tablet, dan ponsel.
@@ -35,20 +35,18 @@ Aplikasi ini menyediakan antarmuka visual untuk memonitor seluruh perjanjian ker
 
 ```
 kerjasama/
-├── index.html                          # Halaman utama dashboard
-├── detail.html                         # Halaman detail per kategori/status
-├── script.js                           # Logika utama dashboard (fetch data, tabel, paginasi, sorting, modal)
-├── detail-script.js                    # Logika halaman detail (filter berdasarkan query parameter)
-├── sipedas.js                          # Modul integrasi SIPEDAS (fetch dokumen, matching dasar hukum)
-├── style.css                           # Seluruh styling (layout, kartu, tabel, modal, responsif)
-├── logorssmweb.png                     # Logo RSUD dr. Soedono Madiun (aset gambar)
-├── Dockerfile                          # Docker image berbasis Nginx untuk deployment
-├── nginx.conf.template                 # Template konfigurasi Nginx (reverse proxy SIPEDAS)
-├── .dockerignore                       # File yang dikecualikan dari Docker build
-├── sipedas.Suratkerjasama.tampil.html  # Contoh response HTML dari SIPEDAS (referensi)
-├── sipedas.Suratkerjasama.file.html    # Contoh response file HTML dari SIPEDAS (referensi)
-├── requirement.md                      # Catatan requirement integrasi dokumen
-└── README.md                           # Dokumentasi proyek
+├── index.html          # Halaman utama dashboard
+├── detail.html         # Halaman detail per kategori/status
+├── script.js           # Logika utama dashboard (fetch data, tabel, paginasi, sorting, modal)
+├── detail-script.js    # Logika halaman detail (filter berdasarkan query parameter)
+├── sipedas.js          # Handler dokumen (parse URL dari spreadsheet, tampilkan file modal)
+├── style.css           # Seluruh styling (layout, kartu, tabel, modal, responsif)
+├── logorssmweb.png     # Logo RSUD dr. Soedono Madiun (aset gambar)
+├── Dockerfile          # Docker image berbasis Nginx untuk deployment
+├── nginx.conf.template # Template konfigurasi Nginx untuk Docker
+├── .dockerignore       # File yang dikecualikan dari Docker build
+├── requirement.md      # Catatan requirement proyek
+└── README.md           # Dokumentasi proyek
 ```
 
 ---
@@ -56,30 +54,19 @@ kerjasama/
 ## ⚙️ Arsitektur & Cara Kerja
 
 ```
-                                 fetch()                                  Read
-┌──────────────┐  ──────────────────────────►  ┌─────────────────────┐  ────────►  ┌────────────────────┐
-│  Browser /   │                               │  Google Apps Script  │            │  Google Spreadsheet│
-│  Dashboard   │  ◄──────────────────────────  │  (Web App / API)     │  ◄────────  │  (Data Kerjasama)  │
-└──────┬───────┘          JSON response        └─────────────────────┘             └────────────────────┘
-       │
-       │  fetch() via Nginx proxy (/sipedas/)
-       │
-       ▼
-┌──────────────┐    proxy_pass     ┌─────────────────────────────────────────────┐
-│    Nginx     │  ──────────────►  │  SIPEDAS (apprssm.rssoedono.jatimprov.go.id)│
-│  (Reverse    │  ◄──────────────  │  - /Suratkerjasama/tampil (list + data-id)  │
-│   Proxy)     │    HTML response  │  - /Suratkerjasama/file   (link dokumen)    │
-└──────────────┘                   └─────────────────────────────────────────────┘
+┌──────────────┐     fetch()      ┌─────────────────────┐     Read     ┌────────────────────┐
+│  Browser /   │ ──────────────►  │  Google Apps Script  │ ──────────►  │  Google Spreadsheet│
+│  Dashboard   │ ◄──────────────  │  (Web App / API)     │ ◄──────────  │  (Data + URL Dok.) │
+└──────────────┘   JSON response  └─────────────────────┘              └────────────────────┘
 ```
 
-1. **Google Spreadsheet** menyimpan seluruh data kerjasama (sheet Klinis & Manajemen).
+1. **Google Spreadsheet** menyimpan seluruh data kerjasama (sheet Klinis & Manajemen), termasuk URL dokumen:
+   - Sheet "Kerjasama Klinis UPDATE" → kolom L (URL)
+   - Sheet "Kerjasama Manajemen Update UPDATE" → kolom N (URL)
 2. **Google Apps Script** dipublikasikan sebagai Web App yang menyediakan dua endpoint:
-   - `GET` (tanpa parameter) — mengembalikan seluruh data ringkasan.
+   - `GET` (tanpa parameter) — mengembalikan seluruh data ringkasan (termasuk field `url`).
    - `GET ?action=getDetail&sheet=...&row=...` — mengembalikan detail satu baris kerjasama.
-3. **SIPEDAS** menyimpan dokumen/berkas kerjasama. Diakses melalui Nginx reverse proxy untuk menghindari masalah CORS:
-   - `/Suratkerjasama/tampil` — daftar semua kerjasama beserta `data-id`.
-   - `/Suratkerjasama/file` (POST `id=...`) — daftar file/dokumen per kerjasama.
-4. **Frontend (HTML/JS/CSS)** merender data ke dalam tabel dan kartu ringkasan. Tombol "Dokumen" mencocokkan nomor dasar hukum dari Google Spreadsheet dengan data SIPEDAS untuk menampilkan link file.
+3. **Frontend (HTML/JS/CSS)** melakukan `fetch()` ke Web App URL, lalu merender data ke dalam tabel dan kartu ringkasan. Tombol "Dokumen" langsung menggunakan URL dari data spreadsheet untuk menampilkan link dokumen PDF.
 
 ---
 
@@ -88,32 +75,18 @@ kerjasama/
 ### Prasyarat
 
 - Browser modern (Chrome, Firefox, Edge, Safari).
-- Koneksi internet (untuk mengambil data dari Google Spreadsheet dan SIPEDAS).
-- **Nginx** (untuk reverse proxy ke SIPEDAS) atau **Docker**.
+- Koneksi internet (untuk mengambil data dari Google Spreadsheet).
 
-### Opsi 1: Lokal dengan Nginx
+### Opsi 1: Langsung di browser
 
 1. Clone atau unduh repositori ini.
-2. Konfigurasi Nginx agar serve file dashboard dan proxy ke SIPEDAS:
-   ```nginx
-   server {
-       listen 80;
-       server_name localhost;
-
-       location / {
-           root /path/to/kerjasama;
-           index index.html;
-       }
-
-       location /sipedas/ {
-           proxy_pass https://apprssm.rssoedono.jatimprov.go.id/sipedas/;
-           proxy_set_header Host apprssm.rssoedono.jatimprov.go.id;
-           proxy_set_header Referer https://apprssm.rssoedono.jatimprov.go.id/;
-           proxy_ssl_server_name on;
-       }
-   }
+2. Buka file `index.html` langsung di browser, **atau** jalankan dengan web server lokal:
+   ```bash
+   # Contoh menggunakan Python:
+   python -m http.server 8000
+   # lalu buka http://localhost:8000/index.html
    ```
-3. Buka `http://localhost/` di browser.
+3. Dashboard akan otomatis memuat data dari Google Spreadsheet yang terhubung.
 
 ### Opsi 2: Docker (untuk deployment di Render.com, dll.)
 
@@ -124,15 +97,7 @@ kerjasama/
    ```
 2. Buka `http://localhost:10000/` di browser.
 
-### Opsi 3: Tanpa Nginx (tanpa fitur dokumen)
-
-1. Buka file `index.html` langsung di browser, atau jalankan dengan web server lokal:
-   ```bash
-   python -m http.server 8000
-   ```
-2. Dashboard berfungsi normal, tetapi tombol "Dokumen" tidak akan bisa mengambil data dari SIPEDAS karena CORS.
-
-> **Catatan:** Data diambil dari Google Spreadsheet yang sudah dikonfigurasi. Jika ingin menggunakan spreadsheet sendiri, ubah nilai `WEB_APP_URL` di `script.js` dan `detail-script.js`.
+> **Catatan:** Data diambil dari Google Spreadsheet yang sudah dikonfigurasi. Jika ingin menggunakan spreadsheet sendiri, ubah nilai `WEB_APP_URL` di `script.js` dan `detail-script.js`, serta pastikan Google Apps Script mengembalikan field `url`.
 
 ---
 
@@ -154,12 +119,13 @@ Pada `script.js`, ubah nilai variabel:
 const rowsPerPage = 20; // Ubah sesuai kebutuhan
 ```
 
-### Mengubah URL SIPEDAS
+### Sumber URL Dokumen
 
-Pada file `sipedas.js`, ubah konstanta:
+URL dokumen diambil dari field `url` yang dikembalikan oleh Google Apps Script. Field ini berisi satu atau lebih URL (dipisahkan koma) yang mengarah ke file PDF di server SIPEDAS.
 
-```javascript
-const SIPEDAS_BASE_URL = '/sipedas'; // Path relatif melalui Nginx proxy
+Contoh format URL:
+```
+https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/26-04-2023-1690172543-PKS_Wynacom_LIS_2023.pdf
 ```
 
 ---
@@ -192,10 +158,8 @@ const SIPEDAS_BASE_URL = '/sipedas'; // Path relatif melalui Nginx proxy
 | Frontend          | HTML5, CSS3, Vanilla JavaScript             |
 | Backend / API     | Google Apps Script (Web App)                |
 | Database          | Google Spreadsheet                          |
-| Dokumen           | SIPEDAS (via Nginx reverse proxy)           |
-| Reverse Proxy     | Nginx                                       |
 | Containerization  | Docker (nginx:stable-alpine)                |
-| Hosting           | Render.com atau server statis dengan Nginx  |
+| Hosting           | Render.com atau server statis              |
 
 ---
 

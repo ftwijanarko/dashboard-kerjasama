@@ -1,0 +1,2172 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "rowIndex": 2,
+      "mitra": "Dinkes, Pengendalian Penduduk dan KB Kota Madiun",
+      "judul": "Pelayanan Kesehatan Tingkat Lanjutan (Rujukan)",
+      "tanggalSelesai": "2024-12-31T00:00:00.000Z",
+      "status": "Tidak Diperpanjang",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "URL"
+    },
+    {
+      "rowIndex": 3,
+      "mitra": "UPT Rehabilitasi Sosial Bina Karya Madiun",
+      "judul": "Pemakaian Ambulance untuk Penjemputan dan Pemulangan Pasien dengan Gangguan Jiwa di RSUD dr. Soedono Provionsi Jawa Timur",
+      "tanggalSelesai": "2025-02-28T00:00:00.000Z",
+      "status": "Tidak Diperpanjang",
+      "sumberSheet": "Kerjasama Klinis"
+    },
+    {
+      "rowIndex": 4,
+      "mitra": "PT Asuransi Ramayana Tbk",
+      "judul": "Pemberian Pelayanan Kesehatan bagi Peserta PT Asuransi Ramayana Tbk",
+      "tanggalSelesai": "2025-02-28T00:00:00.000Z",
+      "status": "Tidak Diperpanjang",
+      "sumberSheet": "Kerjasama Klinis"
+    },
+    {
+      "rowIndex": 5,
+      "mitra": "PT Media Dokter Investama",
+      "judul": "Layanan Kesehatan",
+      "tanggalSelesai": "2025-04-25T00:00:00.000Z",
+      "status": "Proses Oleh TU",
+      "sumberSheet": "Kerjasama Klinis"
+    },
+    {
+      "rowIndex": 6,
+      "mitra": "PT Asuransi Ramayana Tbk",
+      "judul": "Pemberian Pelayanan Kesehatan bagi Peserta ASKES dan CoB BPJS",
+      "tanggalSelesai": "2025-07-31T00:00:00.000Z",
+      "status": "Tidak Diperpanjang",
+      "sumberSheet": "Kerjasama Klinis"
+    },
+    {
+      "rowIndex": 7,
+      "mitra": "UPTD Puskesmas Maospati",
+      "judul": "Pelayanan Kesehatan Rujukan Lanjutan",
+      "tanggalSelesai": "2025-07-31T00:00:00.000Z",
+      "status": "Tidak Diperpanjang",
+      "sumberSheet": "Kerjasama Klinis"
+    },
+    {
+      "rowIndex": 8,
+      "mitra": "Klinik Dokter Indah",
+      "judul": "Sistem Rujukan Pelayanan Kesehatan",
+      "tanggalSelesai": "2025-09-17T00:00:00.000Z",
+      "status": "Proses Oleh TU",
+      "sumberSheet": "Kerjasama Klinis"
+    },
+    {
+      "rowIndex": 9,
+      "mitra": "RSUD Kota Madiun",
+      "judul": "Penyelenggaraan Perbekalan Farmasi Dengan Pinjam Pakai Guna Mengatasi Kedaruratan",
+      "tanggalSelesai": "2025-09-30T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 10,
+      "mitra": "RSUD Dr. Soetomo Surabaya",
+      "judul": "Pelayanan Rujukan",
+      "tanggalSelesai": "2025-09-30T00:00:00.000Z",
+      "status": "Perlu Proses Perpanjangan",
+      "sumberSheet": "Kerjasama Klinis"
+    },
+    {
+      "rowIndex": 11,
+      "mitra": "RS Widodo Ngawi",
+      "judul": "Pelayanan Kesehatan Rujukan",
+      "tanggalSelesai": "2025-10-24T00:00:00.000Z",
+      "status": "Perlu Proses Perpanjangan",
+      "sumberSheet": "Kerjasama Klinis"
+    },
+    {
+      "rowIndex": 12,
+      "mitra": "PT Pertamina (Persero) 4 Entitas",
+      "judul": "Pelayanan Kesehatan",
+      "tanggalSelesai": "2025-10-31T00:00:00.000Z",
+      "status": "Perlu Proses Perpanjangan",
+      "sumberSheet": "Kerjasama Klinis"
+    },
+    {
+      "rowIndex": 13,
+      "mitra": "RSUD dr. Sayidiman Magetan",
+      "judul": "Pelayanan Rujukan",
+      "tanggalSelesai": "2025-11-30T00:00:00.000Z",
+      "status": "Perlu Proses Perpanjangan",
+      "sumberSheet": "Kerjasama Klinis"
+    },
+    {
+      "rowIndex": 14,
+      "mitra": "Dinas Kesehatan Provinsi Jawa Timur",
+      "judul": "Pelayanan TB Resistan Obat",
+      "tanggalSelesai": "2025-12-30T00:00:00.000Z",
+      "status": "Perlu Proses Perpanjangan",
+      "sumberSheet": "Kerjasama Klinis"
+    },
+    {
+      "rowIndex": 15,
+      "mitra": "PT PLN (Persero) Kantor Pusat",
+      "judul": "Addendum III Perjanjian Kerjasama tentang Pelayanan Kesehatan Rawat Inap dan Rawat Jalan",
+      "tanggalSelesai": "2025-12-31T00:00:00.000Z",
+      "status": "Proses Oleh TU",
+      "sumberSheet": "Kerjasama Klinis"
+    },
+    {
+      "rowIndex": 16,
+      "mitra": "Puskesmas Klecorejo",
+      "judul": "Pelayanan Kesehatan Tingkat Lanjutan",
+      "tanggalSelesai": "2026-01-09T00:00:00.000Z",
+      "status": "Tidak Diperpanjang",
+      "sumberSheet": "Kerjasama Klinis"
+    },
+    {
+      "rowIndex": 17,
+      "mitra": "PT INKA Multi Solusi Service",
+      "judul": "Pelayanan Kesehatan Bagi Karyawan Tetap PT. INKA Multi Solusi Service dan Keluarganya Serta Karyawan Organik PT INKA (Persero) yang ditugaskan di PT INKA Multi Solusi Service",
+      "tanggalSelesai": "2026-02-28T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/07-03-2022-1715736751-PKS_INKA_MMS_Pelayanan_Kesehatan_Karyawan_2024.pdf"
+    },
+    {
+      "rowIndex": 18,
+      "mitra": "PT BRI Tbk Kantor Cabang Madiun",
+      "judul": "Pelayanan Kesehatan Bagi Pekerja PT BRI Persero Tbk Cabang Madiun dan Keluarganya di RSUD dr. Soedono Madiun",
+      "tanggalSelesai": "2026-02-28T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 19,
+      "mitra": "PT Asuransi Jiwa Inhealth Indonesia",
+      "judul": "Pelayanan Kesehatan dan Obat bagi Peserta PT Asuransi Jiwa Inhealth Indonesia",
+      "tanggalSelesai": "2026-03-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 20,
+      "mitra": "RSUD Dr. Harjono S. Ponorogo",
+      "judul": "Pelayanan Kesehatan Rujukan",
+      "tanggalSelesai": "2026-03-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/31-03-2022-1653455308-PKS_rsud_dr__Harjono_S_Ponorogo.pdf"
+    },
+    {
+      "rowIndex": 21,
+      "mitra": "RSI AT-Tin Husada Ngawi",
+      "judul": "Rujukan Pelayanan Kesehatan",
+      "tanggalSelesai": "2029-03-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 22,
+      "mitra": "RSUD dr. Sayidiman Magetan",
+      "judul": "Kegiatan Kredensial dan Rekredensial Tenaga Dokter",
+      "tanggalSelesai": "2026-04-20T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 23,
+      "mitra": "RSUD dr. Sayidiman Magetan",
+      "judul": "Addendum Kegiatan Kredensial dan Rekredensial Tenaga Dokter",
+      "tanggalSelesai": "2026-04-20T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 24,
+      "mitra": "dr. Pranawa, Sp.PD-KGH,FINASIM",
+      "judul": "Supervisi Pelayanan Hemodialisis",
+      "tanggalSelesai": "2026-04-30T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 25,
+      "mitra": "RSU Muslimat Ponorogo",
+      "judul": "Rujukan Pelayanan dan Penunjang Medis",
+      "tanggalSelesai": "2026-05-18T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 26,
+      "mitra": "RS Siti Aisyah Madiun",
+      "judul": "Pelayanan Kesehatan Rujukan",
+      "tanggalSelesai": "2026-05-21T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 27,
+      "mitra": "RSIA Al-Hasanah Kota Madiun",
+      "judul": "Rujukan Pelayanan Kesehatan",
+      "tanggalSelesai": "2026-05-21T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/22-05-2023-1690172947-PKS_Rujukan_RSI_Al_Hasanah_2023.pdf"
+    },
+    {
+      "rowIndex": 28,
+      "mitra": "PJPK SINT CAROLUS",
+      "judul": "Pelayanan Kesehatan Rawat Jalan dan Rawat Inap Bagi Peserta Pelayanan Jaminan Pemeliharaan Kesehatan Sint Carolus dengan Skema Jaminan Perusahaan Murni untuk Rawat Jalan dan Koordinasi Manfaat BPJS Kesehatan untuk Rawat Inap",
+      "tanggalSelesai": "2026-05-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/03-06-2024-1724987112-PKS_Pelayanan_Kesehatan_PJPK_Sint_Carolus_2024.pdf"
+    },
+    {
+      "rowIndex": 29,
+      "mitra": "UPT Puskesmas Krebet",
+      "judul": "Pelayanan  Kesehatan Rujukan Tingkat  Lanjutan Rawat Jalan, Rawat Inap Dan Poned",
+      "tanggalSelesai": "2026-05-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 30,
+      "mitra": "Rumah Sakit Santa Clara",
+      "judul": "Rujukan Pelayanan Kesehatan",
+      "tanggalSelesai": "2026-06-01T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 31,
+      "mitra": "RS Bhakti Persada Magetan",
+      "judul": "Pelayanan Kesehatan Rujukan",
+      "tanggalSelesai": "2026-06-05T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 32,
+      "mitra": "RS Bhakti Persada Magetan",
+      "judul": "Addendum Pelayanan Kesehatan Rujukan",
+      "tanggalSelesai": "2026-06-05T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 33,
+      "mitra": "Klinik Utama Rawat Inap Yepa Husada Kaibon",
+      "judul": "Rujukan Pelayanan dan Penunjang Medis",
+      "tanggalSelesai": "2026-07-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 34,
+      "mitra": "UPTD Puskesmas Takeran",
+      "judul": "Pelayanan Kesehatan Rujukan",
+      "tanggalSelesai": "2026-07-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/27-07-2023-1700209223-Scan_PKS_Puskesmas_Takeran_2023.pdf"
+    },
+    {
+      "rowIndex": 35,
+      "mitra": "PT Kartika Bina Medikatama",
+      "judul": "Pelayanan Kesehatan",
+      "tanggalSelesai": "2026-08-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 36,
+      "mitra": "UPT Puskesmas Gorang - Gareng Taji",
+      "judul": "Pelayanan Rujukan Lanjutan",
+      "tanggalSelesai": "2026-09-30T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 37,
+      "mitra": "Dinas Kesehatan Kabupaten Madiun",
+      "judul": "Pelayanan Kesehatan Tingkat Lanjutan (Rujukan)",
+      "tanggalSelesai": "2026-10-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 38,
+      "mitra": "RS Santa Clara",
+      "judul": "Pelayanan Tenaga Medis Spesialis Anestesi",
+      "tanggalSelesai": "2026-10-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 39,
+      "mitra": "RSUD Dr. Moewardi",
+      "judul": "Pelayanan Rujukan Pasien",
+      "tanggalSelesai": "2026-11-17T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/01-09-2022-1700206494-PKS_Rujukan_RSUD_Dr__Moewardi.pdf"
+    },
+    {
+      "rowIndex": 40,
+      "mitra": "PT Asuransi BRI life",
+      "judul": "Pelayanan Kesehatan Secara Berlangganan",
+      "tanggalSelesai": "2026-11-30T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/27-11-2023-1715673338-PKS_PT_Asuransi_BRI_Life_2024_11zon.pdf"
+    },
+    {
+      "rowIndex": 41,
+      "mitra": "Larissa Aesthetic Center",
+      "judul": "Pelayanan Kesehatan Rujukan Pasien, Rujukan Pemeriksaan Radiologi dan Rujukan Pemeriksaan Laboratorium",
+      "tanggalSelesai": "2026-11-30T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 42,
+      "mitra": "PT Pertamina Bina Medika IHC",
+      "judul": "Pelayanan Kesehatan",
+      "tanggalSelesai": "2026-12-06T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 43,
+      "mitra": "Komisi Penanggulangan HIV AIDS Daerah Kabupaten Madiun",
+      "judul": "Program Pencegahan dan Penanggulangan HIV dan AIDS di Kabupaten Madiun",
+      "tanggalSelesai": "2026-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 44,
+      "mitra": "YAKES TELKOM",
+      "judul": "Pelayanan Kesehatan dan Perawatan bagi Peserta Yakes Telkom",
+      "tanggalSelesai": "2024-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 45,
+      "mitra": "YAKES TELKOM",
+      "judul": "Addendum Pelayanan Kesehatan dan Perawatan bagi Peserta Yakes Telkom",
+      "tanggalSelesai": "2026-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 46,
+      "mitra": "PT INKA Multi Solusi",
+      "judul": "Pelayanan Kesehatan Bagi Pegawai PT INKA Multi Solusi Dan Keluarganya Di RSUD dr. Soedono Madiun",
+      "tanggalSelesai": "2026-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/02-01-2024-1709871149-PKS_PT_Inka_2024.pdf"
+    },
+    {
+      "rowIndex": 47,
+      "mitra": "BPJS Ketenagakerjaan Cabang Madiun",
+      "judul": "Pelaksanaan Pelayanan Kesehatan bagi Peserta Program Jaminan Kecelakaan Kerja",
+      "tanggalSelesai": "2026-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/14-12-2023-1710915549-PKS_BPJS_Ketenagakerjaan_2023.pdf"
+    },
+    {
+      "rowIndex": 48,
+      "mitra": "BPJS Kesehatan Cabang Madiun",
+      "judul": "Pelayanan kesehatan rujukan tingkat lanjutan bagi peserta program jaminan kesehatan",
+      "tanggalSelesai": "2026-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 49,
+      "mitra": "PT INDUSTRI KERETA API (Persero)",
+      "judul": "Pelayanan Kesehatan Bagi Karyawan PT Industri Kereta Api (Persero) Dan Keluarganya Di RSUD dr Soedono Provinsi Jawa Timur",
+      "tanggalSelesai": "2027-01-05T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/02-01-2024-1709871149-PKS_PT_Inka_2024.pdf"
+    },
+    {
+      "rowIndex": 50,
+      "mitra": "Rumah Sakit Tingkat IV Madiun",
+      "judul": "Rujukan Pelayanan dan Penunjang Medis",
+      "tanggalSelesai": "2027-01-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/01-10-2021-1639110703-PKS_RS_TK_IV_MADIUN.pdf"
+    },
+    {
+      "rowIndex": 51,
+      "mitra": "Klinik Erha Skin Madiun",
+      "judul": "Rujukan Pelayanan Kesehatan",
+      "tanggalSelesai": "2027-03-01T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/04-03-2024-1715731411-Scan_PKS_Klinik_Erha_Skin_ttg_Rujukan_Pelayanan_Kesehatan_2024.pdf"
+    },
+    {
+      "rowIndex": 52,
+      "mitra": "Klinik Ahza Medika Pangkur",
+      "judul": "Pelayanan Rujukan Lanjutan",
+      "tanggalSelesai": "2027-03-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 53,
+      "mitra": "Yayasan Bambu Nusantara",
+      "judul": "Program Penanganan Tuberkulosis",
+      "tanggalSelesai": "2027-03-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 54,
+      "mitra": "PT. Asabri",
+      "judul": "Pelayanan Pengobatan dan Perawatan Program Jaminan Kecelakaan Kerja Bagi Peserta ASABRI Aktif",
+      "tanggalSelesai": "2027-04-30T00:00:00.000Z",
+      "status": "Proses Mitra",
+      "sumberSheet": "Kerjasama Klinis"
+    },
+    {
+      "rowIndex": 55,
+      "mitra": "Yayasan Kesehatan Pertamina",
+      "judul": "Pelayanan Kesehatan bagi Pegawai",
+      "tanggalSelesai": "2027-05-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 56,
+      "mitra": "Yayasan Kesehatan Pertamina",
+      "judul": "Pelayanan Kesehatan Bagi Pegawai Yayasan Kesehatan Pertamina",
+      "tanggalSelesai": "2027-06-30T00:00:00.000Z",
+      "status": "Proses Mitra",
+      "sumberSheet": "Kerjasama Klinis"
+    },
+    {
+      "rowIndex": 57,
+      "mitra": "RSAU dr. Efram Harsana Lanud Iswahyudi Kabupaten Magetan",
+      "judul": "Pelayanan Kesehatan Rujukan",
+      "tanggalSelesai": "2027-08-08T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/11-07-2022-1700205559-PKS_RSAU_dr_Efram_Harsana.pdf"
+    },
+    {
+      "rowIndex": 58,
+      "mitra": "RSU \"Darmayu\" Ponorogo",
+      "judul": "Pelayanan Rujukan Pasien",
+      "tanggalSelesai": "2027-08-24T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 59,
+      "mitra": "Rumah Sakit Daerah Nganjuk",
+      "judul": "Pelayanan Rujukan",
+      "tanggalSelesai": "2027-08-31T00:00:00.000Z",
+      "status": "Proses Mitra",
+      "sumberSheet": "Kerjasama Klinis"
+    },
+    {
+      "rowIndex": 60,
+      "mitra": "RS Hermina Madiun",
+      "judul": "Rujukan Pelayanan Kesehatan",
+      "tanggalSelesai": "2027-09-12T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 61,
+      "mitra": "RSUD RADJIMAN WIDIODININGRAT",
+      "judul": "Pengampuan Bidang Pelayanan Kesehatan Jiwa",
+      "tanggalSelesai": "2027-09-12T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 62,
+      "mitra": "RS Paru Manguharjo Madiun",
+      "judul": "Pelayanan Perawatan Pasien Tuberkolosis Resisten Obat",
+      "tanggalSelesai": "2027-09-30T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/15-09-2023-1700209564-Scan_PKS_RS_Paru_Manguharjo_2023.pdf"
+    },
+    {
+      "rowIndex": 63,
+      "mitra": "RSU Muhammadiyah Ponorogo",
+      "judul": "Pelayanan Rujukan Pasien",
+      "tanggalSelesai": "2027-09-30T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 64,
+      "mitra": "PT. Jasa Raharja Madiun",
+      "judul": "Penanganan dan Penyelesaian Santunan Korban Kecelakaan Penumpang Angkutan Umum dan Lalu Lintas Jalan",
+      "tanggalSelesai": "2027-10-04T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/02-12-2022-1677810503-PKS_Korban_Laka_PT_Jasa_Raharja.pdf"
+    },
+    {
+      "rowIndex": 65,
+      "mitra": "PT. Jasa Raharja Madiun",
+      "judul": "Addendum Penanganan dan Penyelesaian Santunan Korban Kecelakaan Penumpang Angkutan Umum dan Lalu Lintas Jalan",
+      "tanggalSelesai": "2027-10-04T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/02-12-2022-1677810503-PKS_Korban_Laka_PT_Jasa_Raharja.pdf"
+    },
+    {
+      "rowIndex": 66,
+      "mitra": "PT. Jasa Raharja Madiun",
+      "judul": "Addendum II Penanganan dan Penyelesaian Santunan Korban Kecelakaan Penumpang Angkutan Umum dan Lalu Lintas Jalan",
+      "tanggalSelesai": "2027-10-04T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/02-12-2022-1677810503-PKS_Korban_Laka_PT_Jasa_Raharja.pdf"
+    },
+    {
+      "rowIndex": 67,
+      "mitra": "RSIA Melati Magetan",
+      "judul": "Pelayanan Kesehatan Tingkat Lanjutan",
+      "tanggalSelesai": "2027-10-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 68,
+      "mitra": "RSUD Kota Madiun",
+      "judul": "Pelayanan Rujukan Lanjutan",
+      "tanggalSelesai": "2027-10-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/01-11-2022-1700206650-PKS_rujukan_RSUD_Kota_Madiun_Sogaten_2022.pdf"
+    },
+    {
+      "rowIndex": 69,
+      "mitra": "RSUP Dr. Kariadi Semarang",
+      "judul": "Pelayanan Rujukan Pasien",
+      "tanggalSelesai": "2027-10-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/01-11-2022-1700207048-PKS_rujukan_RSUP_Kariadi_Semarang_2022.pdf"
+    },
+    {
+      "rowIndex": 70,
+      "mitra": "PT Kereta Api Indonesia (Persero)",
+      "judul": "Pelayanan Kesehatan bagi Peserta Jaminan Kesehatan Perusahaan PT Kereta Api Indonesia (PERSERO)",
+      "tanggalSelesai": "2027-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/02-01-2024-1709871149-PKS_PT_Inka_2024.pdf"
+    },
+    {
+      "rowIndex": 71,
+      "mitra": "PT Kereta Api Indonesia (Persero)",
+      "judul": "Berita Acara Negosiasi Kerjasama Pelayanan Kesehatan",
+      "tanggalSelesai": "2027-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 72,
+      "mitra": "Dinas Kesehatan Pengendalian Penduduk dan Keluarga Berencana Kota Madiun",
+      "judul": "Penyiaran Program P:odcast Kawan Diska",
+      "tanggalSelesai": "2027-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/10-02-2025-1750661098-scan_PKS_dengan_Dinkes_Kota_Madiun_ttg_Podcast_Kawan_Diska.pdf"
+    },
+    {
+      "rowIndex": 73,
+      "mitra": "PT Taspen (Persero)",
+      "judul": "Perawatan Peserta Program Jaminan Kecelakaan Kerja PT Taspen (Persero)",
+      "tanggalSelesai": "2028-01-01T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 74,
+      "mitra": "RSI 'Aisyiyah Nganjuk",
+      "judul": "Pelayanan Rujukan Pasien",
+      "tanggalSelesai": "2028-01-20T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 75,
+      "mitra": "PT Asuransi Perisai Listrik Nasional (PLN Insurance)",
+      "judul": "Pelayanan Perawatan dan Pengobatan",
+      "tanggalSelesai": "2028-01-31T00:00:00.000Z",
+      "status": "Proses Mitra",
+      "sumberSheet": "Kerjasama Klinis"
+    },
+    {
+      "rowIndex": 76,
+      "mitra": "RSU Darmayu Madiun",
+      "judul": "Rujukan Pelayanan dan Penunjang Medis",
+      "tanggalSelesai": "2028-02-02T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 77,
+      "mitra": "Rumah Sakit Griya Husada Madiun",
+      "judul": "Pelayanan Medis Rujukan",
+      "tanggalSelesai": "2028-02-10T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 78,
+      "mitra": "RSIA Sekar Wangi Magetan",
+      "judul": "Pelayanan Kesehatan Rujukan",
+      "tanggalSelesai": "2028-02-20T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/03-03-2025-1760182436-Scan_PKS_RSIA_Sekar_Wangi_Magetan_2025.pdf"
+    },
+    {
+      "rowIndex": 79,
+      "mitra": "Amaris Hotel Madiun",
+      "judul": "Pelayanan Kesehatan bagi Tamu dan Karyawan Amaris Hotel Madiun",
+      "tanggalSelesai": "2028-02-23T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 80,
+      "mitra": "RSUD Dungus Madiun",
+      "judul": "Rujukan Pelayanan dan Penunjang Medis",
+      "tanggalSelesai": "2028-03-20T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 81,
+      "mitra": "Dinas Kesehatan Pengendalian Penduduk dan Keluarga Berencana Kota Madiun",
+      "judul": "Pembinaan Jejaring Program Nasional di Kota Madiun",
+      "tanggalSelesai": "2028-07-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 82,
+      "mitra": "PT Asuransi BRI Life",
+      "judul": "Pelayanan Kesehatan dan Obat Bagi Peserta Asuransi Kesehatan PT Asuransi BRI Life",
+      "tanggalSelesai": "2028-04-30T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 83,
+      "mitra": "PT Integritas Solusi Medika",
+      "judul": "Pelayanan Kesehatan",
+      "tanggalSelesai": "2028-06-30T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 84,
+      "mitra": "PT Sumber Cipta Multiniaga",
+      "judul": "Pelayanan Kesehatan bagi Peserta BPJS Kesehatan",
+      "tanggalSelesai": "2028-07-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 85,
+      "mitra": "Rumah Sakit Santa Clara",
+      "judul": "Penyelenggaraan Perbekalan Farmasi Dengan Pinjam Pakai Guna Mengatasi Kedaruratan",
+      "tanggalSelesai": "2028-08-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 86,
+      "mitra": "CV. 2-Empat Medika",
+      "judul": "Rujukan Pelayanan Kesehatan",
+      "tanggalSelesai": "2028-08-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/23-06-2025-1764056801-PKS_Rujukan_CV-Empat_Medika.pdf"
+    },
+    {
+      "rowIndex": 87,
+      "mitra": "Klinik Pratama Rawat Inap Mitra Husada Magetan",
+      "judul": "Pelayanan Kesehatan Rujukan",
+      "tanggalSelesai": "2024-07-31T00:00:00.000Z",
+      "status": "Tidak Diperpanjang",
+      "sumberSheet": "Kerjasama Klinis"
+    },
+    {
+      "rowIndex": 88,
+      "mitra": "RSUD dr. Sayidiman Magetan",
+      "judul": "Kegiatan Kredensial dan Rekredensial Tenaga Kesehatan Lainnya",
+      "tanggalSelesai": "2028-09-30T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 89,
+      "mitra": "RSUD Dolopo",
+      "judul": "Pelayanan Rujukan Pasien",
+      "tanggalSelesai": "2028-09-30T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/03-10-2022-1672895562-PKS_Rujukan_RSUD_Dolopo.pdf"
+    },
+    {
+      "rowIndex": 90,
+      "mitra": "RSU 'Aisyiyah Ponorogo",
+      "judul": "Rujukan Pelayanan dan Penunjang Medis",
+      "tanggalSelesai": "2028-10-09T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 91,
+      "mitra": "RS Paru Manguharjo",
+      "judul": "Pelayanan Rujukan dan Penunjang Medis",
+      "tanggalSelesai": "2028-11-30T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis"
+    },
+    {
+      "rowIndex": 92,
+      "mitra": "RSUD Dr. Soeroto Ngawi",
+      "judul": "Pelayanan Rujukan PAsien",
+      "tanggalSelesai": "2029-01-06T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 93,
+      "mitra": "RSUD Dungus Provinsi Jawa Timur",
+      "judul": "Kegiatan Kredensial dan Rekredensial Tenaga Dokter",
+      "tanggalSelesai": "2029-01-18T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 94,
+      "mitra": "Dinas Kesehatan kabupaten Magetan",
+      "judul": "Pembinaan Jejaring Program Nasional dan Rujukan Lansia di Kabupaten Magetan",
+      "tanggalSelesai": "2029-01-26T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 95,
+      "mitra": "RSUD Dungus Provinsi Jawa Timur",
+      "judul": "Kegiatan Kredensial dan Rekredensial Perawat dan Tenaga Kesehatan Lainnya",
+      "tanggalSelesai": "2029-01-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Klinis",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 96,
+      "mitra": "UPT Puskesmas Kwadungan Kabupaten Ngawi",
+      "judul": "Pelayanan Kesehatan Rujukan Lanjutan",
+      "tanggalSelesai": "2024-07-31T00:00:00.000Z",
+      "status": "Tidak Diperpanjang",
+      "sumberSheet": "Kerjasama Klinis"
+    },
+    {
+      "rowIndex": 97,
+      "mitra": "UPT Puskesmas Saradan",
+      "judul": "Pelayanan Rujukan Lanjutan",
+      "tanggalSelesai": "2024-07-31T00:00:00.000Z",
+      "status": "Tidak Diperpanjang",
+      "sumberSheet": "Kerjasama Klinis"
+    },
+    {
+      "rowIndex": 98,
+      "mitra": "RSU Darmayu Ponorogo",
+      "judul": "Pelayanan Rujukan Pasien",
+      "tanggalSelesai": "2024-08-31T00:00:00.000Z",
+      "status": "Tidak Diperpanjang",
+      "sumberSheet": "Kerjasama Klinis"
+    },
+    {
+      "rowIndex": 99,
+      "mitra": "RSI SITI AISYAH MADIUN",
+      "judul": "Pengiriman Pemeriksaan Sampel Swab PCR dalam Rangka Penanganan COVID - 19",
+      "tanggalSelesai": "2023-07-26T00:00:00.000Z",
+      "status": "Tidak Diperpanjang",
+      "sumberSheet": "Kerjasama Klinis"
+    },
+    {
+      "rowIndex": 2,
+      "mitra": "RS Kanker Dharmais & PT Sansico Natura Resources",
+      "judul": "Pinjam Pakai Alat Slide Scanner",
+      "tanggalSelesai": "2024-06-30T00:00:00.000Z",
+      "status": "Tidak Diperpanjang",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "info@sansicomedica.com"
+    },
+    {
+      "rowIndex": 3,
+      "mitra": "PT Samator Indo Gas Tbk",
+      "judul": "Penempatan Tangki Oksigen Cair di lingkungan RSUD dr. Soedono Provinsi Jawa Timur",
+      "tanggalSelesai": "2028-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 4,
+      "mitra": "Dinas Kesehatan, Pengendalian Penduduk dan Keluarga Berencana Kota Madiun",
+      "judul": "(",
+      "tanggalSelesai": "2025-12-31T00:00:00.000Z",
+      "status": "Tidak Diperpanjang",
+      "sumberSheet": "Kerjasama Manajemen"
+    },
+    {
+      "rowIndex": 5,
+      "mitra": "PT Nusa Triutama Surabaya",
+      "judul": "Penggunaan Alat Kesehatan Hematology Analyser Type Cell Dyn Ruby Merk Abbott-USA di Laboratorium Terpadu RSUD dr. Soedono Provinsi Jawa Timur",
+      "tanggalSelesai": "2025-12-31T00:00:00.000Z",
+      "status": "Proses Oleh TU",
+      "sumberSheet": "Kerjasama Manajemen"
+    },
+    {
+      "rowIndex": 6,
+      "mitra": "PT Wynacom Unitama Sejahtera",
+      "judul": "Sewa Pakai Laboratory Information System (LIS) di Laboratorium Terpadu RSUD dr. Soedono Provinsi Jawa Timur",
+      "tanggalSelesai": "2026-04-30T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/26-04-2023-1690172543-PKS_Wynacom_LIS_2023.pdf"
+    },
+    {
+      "rowIndex": 7,
+      "mitra": "PT IFORTE SOLUSI INFOTEK",
+      "judul": "Penyediaan Jasa Layanan Internet",
+      "tanggalSelesai": "2026-05-09T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 8,
+      "mitra": "Dinas Kependudukan dan Catatan Sipil Kabupaten Madiun",
+      "judul": "Penerbitan Dokumen Kependudukan",
+      "tanggalSelesai": "2026-06-30T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 9,
+      "mitra": "CV Behzad Ortomedika",
+      "judul": "Pembuatan Alat Bantu Rehabilitasi Medik",
+      "tanggalSelesai": "2026-09-30T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 10,
+      "mitra": "PT Beka Bersama Koewatjie Abadi",
+      "judul": "Pengelolaan Limbah Kering Berbahan Kertas",
+      "tanggalSelesai": "2026-11-09T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 11,
+      "mitra": "Laboratorium Sarana Medika",
+      "judul": "Rujukan Pemeriksaan Laboratorium (Penunjang diagnostic)",
+      "tanggalSelesai": "2026-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/11-09-2023-1700208540-scan_PKS_Prodia_2024-2026.pdf"
+    },
+    {
+      "rowIndex": 12,
+      "mitra": "Unit Donor Darah PMI Kota Madiun",
+      "judul": "Pelayanan Transfusi Darah di Bank Darah RSUD dr. Soedono Provinsi Jawa Timur",
+      "tanggalSelesai": "2026-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 13,
+      "mitra": "PT. Dexa Arfindo Pratama",
+      "judul": "Penempatan Alat Kesehatan Blood Gas Analyser Instrumentation Laboratory Type Gem Premier 3500 dan ILYTE (Elektrolit) di LaboratoriumTerpadu RSUD dr. Soedono Madiun",
+      "tanggalSelesai": "2026-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 14,
+      "mitra": "Andriyanto Law Firm and Partners",
+      "judul": "Jasa Konsultasi dan Pelayanan Hukum",
+      "tanggalSelesai": "2026-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 15,
+      "mitra": "Sekolah Luar Biasa B-C Dharma Wanita Kota Madiun",
+      "judul": "Pelayanan Penerjemah Bahasa Isyarat",
+      "tanggalSelesai": "2027-08-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/19-07-2024-1728262798-PKS_SLB_Dharma_Wanita_Kota_Madiun_ttg_Bahasa_Isyarat.pdf"
+    },
+    {
+      "rowIndex": 16,
+      "mitra": "Kantor Imigrasi Kelas II Non TPI Madiun",
+      "judul": "Penyelenggaraan Kegiatan Pelayanan Keimigrasian dan Pelaporan Warga Negara Asing pada RSUD dr. Soedono Provinsi Jawa Timur",
+      "tanggalSelesai": "2027-09-12T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 17,
+      "mitra": "PT Nusa Karya Mulya Medika",
+      "judul": "Layanan Sterilisasi Produk Jadi",
+      "tanggalSelesai": "2027-09-30T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 18,
+      "mitra": "PT Telekomunikasi Indonesia Tbk Wilayah Telekomunikasi Suramadu",
+      "judul": "Penyediaan Jasa Layanan Information and communication technology (ICT)",
+      "tanggalSelesai": "2027-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/02-01-2024-1709602772-Kontrak_Berlangganan_PT_Telkom_dgn_RSSM_tahun_2024.pdf"
+    },
+    {
+      "rowIndex": 19,
+      "mitra": "PT Saba Indomedika Surabaya",
+      "judul": "Penggunaan Alat Pneumatic Tube Transport System Merk Hunter IT di Laboratorium Terpadu RSUD dr. Soedono Provinsi Jawa Timur",
+      "tanggalSelesai": "2027-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/02-12-2024-1750661418-scan_PKS_PT_Saba_ttg_Pneumatic_Tube_Hunter_IT.pdf"
+    },
+    {
+      "rowIndex": 20,
+      "mitra": "PT Telekomunikasi Indonesia Tbk Wilayah Telekomunikasi Madiun",
+      "judul": "Penyediaan Jasa Layanan Information and communication technology (ICT)",
+      "tanggalSelesai": "2027-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 21,
+      "mitra": "PT. PRODIA WIDYAHUSADA Tbk (RS Rujuk ke Prodia)",
+      "judul": "Rujukan Parsial Pelayanan Pemeriksaan Penunjang Diagnostik",
+      "tanggalSelesai": "2027-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 22,
+      "mitra": "Dinas Kependudukan dan Catatan Sipil Kabupaten Magetan",
+      "judul": "Pembuatan Dokumen Kependudukan",
+      "tanggalSelesai": "2028-05-10T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 23,
+      "mitra": "PT. PRODIA WIDYAHUSADA Tbk (Prodia Rujuk ke RS)",
+      "judul": "Rujukan Pemeriksaan Penunjang Medis Laboratorium Medis Prodia Widyahusada Tbk",
+      "tanggalSelesai": "2028-07-20T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 24,
+      "mitra": "PT Dexa Arfindo Pratama",
+      "judul": "Penggunaan Alat Kesehatan Immunohematology Instrumentation Merk Matrix Type Crossmatching",
+      "tanggalSelesai": "2028-07-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 25,
+      "mitra": "PT. Sinar Roda Utama",
+      "judul": "Pelayanan Hemodialisa",
+      "tanggalSelesai": "2028-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 26,
+      "mitra": "PT Dimensi Citra Semesta",
+      "judul": "Layanan Hematology Mindray di  Laboratorium Instalasi Gawat Darurat RSUD dr. Soedono Provinsi Jawa Timur",
+      "tanggalSelesai": "2028-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 27,
+      "mitra": "PT Saba Indomedika Surabaya",
+      "judul": "Layanan Hematology Analyzer Sysmex XN-1000B1 di Instalasi Laboratorium Terpadu",
+      "tanggalSelesai": "2028-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 28,
+      "mitra": "PT Dexa Arfindo Pratama",
+      "judul": "Pelayanan Pemeriksaan Kimia Klinik Analyser Instrumentation Laboratory (Type Pentra C 400) di Instalasi Laboratorium Terpadu RSUD dr. Soedono Provinsi Jawa Timur",
+      "tanggalSelesai": "2028-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 29,
+      "mitra": "PT Multimedilab Karyamandiri",
+      "judul": "Penempatan Alat Chemiluminescence Immunoassay (Clia) System",
+      "tanggalSelesai": "2030-07-07T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/01-07-2025-1760185674-Scan_PKS_PT_Multimedilab_Karyamandiri_ttg_Alat_CLIA.pdf"
+    },
+    {
+      "rowIndex": 30,
+      "mitra": "Biro Umum Setda Provinsi Jawa Timur",
+      "judul": "Berita Acara Serah Terima Pinjam Pakai Kendaraan",
+      "tanggalSelesai": "2025-12-31T00:00:00.000Z",
+      "status": "Perlu Proses Perpanjangan",
+      "sumberSheet": "Kerjasama Manajemen"
+    },
+    {
+      "rowIndex": 31,
+      "mitra": "Kejaksaan Negeri Kota Madiun",
+      "judul": "Penanganan Permasalahan Hukum \nBidang Perdata dan Tata Usaha Negara",
+      "tanggalSelesai": "2025-04-03T00:00:00.000Z",
+      "status": "Tidak Diperpanjang",
+      "sumberSheet": "Kerjasama Manajemen"
+    },
+    {
+      "rowIndex": 32,
+      "mitra": "FK UII & RSJD DR. RM. Soedjarwadi",
+      "judul": "Addendum Pelaksanaan Program Pendidikan di Rumah Sakit Jejaring",
+      "tanggalSelesai": "2025-04-03T00:00:00.000Z",
+      "status": "Perlu Proses Perpanjangan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "soedjarwadi@jatengprov.go.id"
+    },
+    {
+      "rowIndex": 33,
+      "mitra": "IIK Bhakti Wiyata Kediri",
+      "judul": "Tridharma Perguruan Tinggi",
+      "tanggalSelesai": "2025-04-30T00:00:00.000Z",
+      "status": "Perlu Proses Perpanjangan",
+      "sumberSheet": "Kerjasama Manajemen"
+    },
+    {
+      "rowIndex": 34,
+      "mitra": "IIK Bhakti Wiyata Kediri & 0",
+      "judul": "Addendum Tridharma Perguruan Tinggi",
+      "tanggalSelesai": "2025-04-30T00:00:00.000Z",
+      "status": "Perlu Proses Perpanjangan",
+      "sumberSheet": "Kerjasama Manajemen"
+    },
+    {
+      "rowIndex": 35,
+      "mitra": "FK UII & RSI Yogyakarta PDHI",
+      "judul": "RSI Yogyakarta PDHI sebagai RS Pendidikan Satelit Fakultas Kedokteran Universitas Islam Indonesia Yogyakarta",
+      "tanggalSelesai": "2025-08-31T00:00:00.000Z",
+      "status": "Perlu Proses Perpanjangan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "humas@rsiypdhi.com"
+    },
+    {
+      "rowIndex": 36,
+      "mitra": "Fak. Ekonomika dan Bisnis Universitas Negeri Surabaya",
+      "judul": "Kerjasama di Bidang Merdeka Belajar, Pengembangan Pendidikan, Penelitian dan Pengabdian kepada Masyarakat",
+      "tanggalSelesai": "2025-08-31T00:00:00.000Z",
+      "status": "Perlu Proses Perpanjangan",
+      "sumberSheet": "Kerjasama Manajemen"
+    },
+    {
+      "rowIndex": 37,
+      "mitra": "PPNI Kota Madiun",
+      "judul": "Kesepakatan Bersama Pelaksanaan Pelatihan/ Workshop Bagi Tenaga Kesehatan",
+      "tanggalSelesai": "2026-01-08T00:00:00.000Z",
+      "status": "Perlu Proses Perpanjangan",
+      "sumberSheet": "Kerjasama Manajemen"
+    },
+    {
+      "rowIndex": 38,
+      "mitra": "Koperasi Jasa Institut Riset Eijkman",
+      "judul": "Surveilans dan Peningkatan Kapasitas Deteksi dan Pemantauan Resistensi Antimikroba Bakteri Penyebab Infeksi Invasif di Indonesia",
+      "tanggalSelesai": "2026-01-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/17-02-2023-1679887876-PKS_KIRE_EIJKMAN_2023.pdf"
+    },
+    {
+      "rowIndex": 39,
+      "mitra": "Erha Skin Madiun",
+      "judul": "Pengelolaan Laundry Linen",
+      "tanggalSelesai": "2026-01-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/22-03-2024-1715662765-Scan_PKS_Laundry_dengan_Erha_Clinic.pdf"
+    },
+    {
+      "rowIndex": 40,
+      "mitra": "STIKES Bhakti Husada Mulia Madiun",
+      "judul": "kegiatan proses belajar mengajar, praktik, penelitian dan pengabdian masyarakat di RSUD dr. Soedono Provinsi Jawa Timur",
+      "tanggalSelesai": "2026-02-28T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/22-03-2024-1715662765-Scan_PKS_Laundry_dengan_Erha_Clinic.pdf"
+    },
+    {
+      "rowIndex": 41,
+      "mitra": "Program Pasca Sarjana Universitas Muhammadiyah Yogyakarta",
+      "judul": "Penyelenggaraan Pelaksanaan Tri Dharma Perguruan Tinggi",
+      "tanggalSelesai": "2026-03-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 42,
+      "mitra": "Kolegium Anestesiologi dan Terapi Intensif Indonesia Indonesia (KATI)",
+      "judul": "Program Pendidikan Fellowship of Interventional Pain (FIP)",
+      "tanggalSelesai": "2026-05-22T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/31-08-2023-1704677077-addendum_PKS_dengan_KATI_FIP_2023.pdf"
+    },
+    {
+      "rowIndex": 43,
+      "mitra": "Kolegium Anestesiologi dan Terapi Intensif Indonesia Indonesia (KATI)",
+      "judul": "Addendum Program Pendidikan Fellowship of Interventional Pain (FIP)",
+      "tanggalSelesai": "2026-05-22T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/31-08-2023-1704677077-addendum_PKS_dengan_KATI_FIP_2023.pdf"
+    },
+    {
+      "rowIndex": 44,
+      "mitra": "Akademi Manajemen Administrasi Yogyakarta",
+      "judul": "Penyelenggaraan Kegiatan tri Dharma Perguruan Tinggi",
+      "tanggalSelesai": "2026-06-30T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 45,
+      "mitra": "Universitas Katolik Soegijapranata",
+      "judul": "Pelaksanaan Kerja Praktik/ Magang untuk Mahasiswa",
+      "tanggalSelesai": "2026-07-21T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 46,
+      "mitra": "Universitas Muhammadiyah Madiun",
+      "judul": "Penyelenggaraan tri Dharma Perguruan Tinggi",
+      "tanggalSelesai": "2026-07-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/14-07-2023-1700619695-PKS_Unmuh_Madiun_2023.pdf"
+    },
+    {
+      "rowIndex": 47,
+      "mitra": "Fakultas Kedokteran Universitas Islam Indonesia & RS Universitas Islam Indonesia",
+      "judul": "RS Univ. Islam Indonesia sebagai Rumah Sakit Pendidikan Satelit RSUD dr. Soedono Madiun",
+      "tanggalSelesai": "2026-09-22T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/01-09-2022-1672722847-PKS_FK_UII_dan_RSI_Yogyakarta_PDHI.pdf"
+    },
+    {
+      "rowIndex": 48,
+      "mitra": "Fakultas Kedokteran Universitas Islam Indonesia & RSUD DR. Soediran Mangun Sumarso Wonogiri",
+      "judul": "Pelaksanaan Program Pendidikan di Rumah Sakit Jejaring",
+      "tanggalSelesai": "2026-09-22T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/27-09-2024-1730250299-Scan_Addendum_Kedua_PKS_FK_UII_ttg_Pendidikan_Dokter.pdf"
+    },
+    {
+      "rowIndex": 49,
+      "mitra": "FK UII & RSUD dr. Soedirman Kebumen",
+      "judul": "Pelaksanaan Program Pendidikan di Rumah Sakit Jejaring",
+      "tanggalSelesai": "2026-09-22T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/22-01-2018-1675150698-PKS_Tripartid_FK_UII_dan_RS_Soedirman_Kebumen_ttg_Program_Pendidikan_Dokter_di_RS_Jejaring.pdf"
+    },
+    {
+      "rowIndex": 50,
+      "mitra": "Universitas Katolik Widya Mandala Surabaya Kampus Kota Madiun",
+      "judul": "Pelaksanaan Tri Dharma Perguruan Tinggi yaitu Pendidikan, Penelitian, dan Pengabdian Kepada Masyarakat Universitas Katolik Widya Mandala Surabaya Kampus Kota Madiun",
+      "tanggalSelesai": "2026-09-30T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 51,
+      "mitra": "Fakultas Farmasi Universitas Setia Budi",
+      "judul": "Pelaksanaan Program Praktek Kerja Profesi Apoteker (PKPA) Rumah Sakit",
+      "tanggalSelesai": "2026-10-04T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 52,
+      "mitra": "Universitas Duta Bangsa",
+      "judul": "Pelaksanaan Kegiatan Pendidikan, Penelitian, dan Pengabdian Masyarakat Mahasiswa Fakultas Ilmu Kesehatan Univ. Duta Bangsa Surakarta di RSUD dr. Soedono Provinsi Jawa timur",
+      "tanggalSelesai": "2026-11-09T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/10-11-2023-1704256737-PKS_FIKES_Univ_Duta_Bangsa_Surakarta_2023.pdf"
+    },
+    {
+      "rowIndex": 53,
+      "mitra": "Fakultas Kedokteran Universitas Islam Indonesia Yogyakarta",
+      "judul": "Pendidikan Klinik Dokter Muda FK UII Yogyakarta di RSUD dr. Soedono Madiun",
+      "tanggalSelesai": "2027-01-04T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/05-01-2022-1646112180-PKS_FK_UII_2022.pdf"
+    },
+    {
+      "rowIndex": 54,
+      "mitra": "Fakultas Kedokteran Universitas Islam Indonesia Yogyakarta",
+      "judul": "Addendum Pendidikan Klinik Dokter Muda FK UII",
+      "tanggalSelesai": "2027-01-04T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/05-01-2022-1646112180-PKS_FK_UII_2022.pdf"
+    },
+    {
+      "rowIndex": 55,
+      "mitra": "Fakultas Kedokteran Universitas Hang Tuah Surabaya & Rumah Sakit Pusat Angkatan Laut DR. Ramelan",
+      "judul": "Pemanfaatan RSUD dr. Soedono Provinsi Jawa Timur sebagai Jejaring Rumah Sakit Pendidikan  Fakultas Kedokteran Universitas Hang Tuah Surabaya",
+      "tanggalSelesai": "2027-01-10T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 56,
+      "mitra": "Fakultas Kedokteran Universitas Muhammadiyah Surabaya",
+      "judul": "Tridharma Perguruan Tinggi",
+      "tanggalSelesai": "2027-01-10T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 57,
+      "mitra": "Fakultas Kedokteran Universitas Muhammadiyah Surabaya",
+      "judul": "Addendum Tridharma Perguruan Tinggi",
+      "tanggalSelesai": "2027-01-10T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 58,
+      "mitra": "Fakultas Psikologi UIN Maulana Malik Ibrahim Malang",
+      "judul": "Praktik Kerja Lapangan Psikologi",
+      "tanggalSelesai": "2027-01-12T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/28-06-2021-1628733332-PKS_UIN_Maulana_Malik_Ibrahim_Malang.pdf"
+    },
+    {
+      "rowIndex": 59,
+      "mitra": "Fakultas Kedokteran Universitas Nahdlatul Ulama Surabaya & RSI Surabaya Jemursari",
+      "judul": "Program Pendidikan Kedokteran pada Jejaring Rumah Sakit di Bidang Pendidikan, Penelitian dan Pengabdian Masyarakat",
+      "tanggalSelesai": "2027-01-16T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 60,
+      "mitra": "Fakultas Matematika dan Ilmu Pengetahuan Alam Universitas Negeri Malang",
+      "judul": "Bidang Penelitian, Pengabdian kepada Masyarakat, dan Pendidikan dalam Rangka Implementasi Kampus Merdeka",
+      "tanggalSelesai": "2027-02-28T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/01-03-2024-1715673836-PKS_FMIPA_Univ_Negeri_Malang_2024.pdf"
+    },
+    {
+      "rowIndex": 61,
+      "mitra": "Universitas Widya Husada Semarang",
+      "judul": "Pelasaknaan Tri Dharma Perguruan Tinggi",
+      "tanggalSelesai": "2027-04-21T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 62,
+      "mitra": "STIKES Guna Bangsa Yogyakarta",
+      "judul": "Pelaksanaan Kegiatan Tri Dharma PT Dan Pendayagunaan Lulusan Bagi Mahasiswa STIKES Guna Bangsa Yogyakarta",
+      "tanggalSelesai": "2027-05-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/19-04-2021-1621312244-PKS_STIKES_GUNA_BANGSA_YOGYAKARTA.pdf"
+    },
+    {
+      "rowIndex": 63,
+      "mitra": "FK Universitas Brawijaya",
+      "judul": "Penyelenggaraan Pendidikan Dokter Spesialis bagi Dokter Utusan Khusus",
+      "tanggalSelesai": "2027-06-30T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 64,
+      "mitra": "FK Universitas Brawijaya",
+      "judul": "Addendum",
+      "tanggalSelesai": "2027-06-30T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 65,
+      "mitra": "FK Universitas Brawijaya",
+      "judul": "Addendum II",
+      "tanggalSelesai": "2027-06-30T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 66,
+      "mitra": "UNIVERSITAS PGRI MADIUN",
+      "judul": "Pelaksanaan Kegiatan Program Kerja Praktik/Magang",
+      "tanggalSelesai": "2027-06-30T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 67,
+      "mitra": "Fakultas Ilmu Komputer Universitas Brawijaya",
+      "judul": "Pelaksanaan Praktik Kerja Lapangan",
+      "tanggalSelesai": "2027-08-07T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 68,
+      "mitra": "Fakultas Psikologi Universitas Negeri Surabaya",
+      "judul": "Pelaksanaan Pendidikan, Penelitian dan Pengabdian kepada Masyarakat Berdasarkan Tri Dharma Perguruan Tinggi",
+      "tanggalSelesai": "2027-09-08T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/09-09-2024-1751951128-PKS_Fak_Psikologi_UNESA_2024.pdf"
+    },
+    {
+      "rowIndex": 69,
+      "mitra": "AKADEMI KEPERAWATAN PEMERINTAH KABUPATEN NGAWI",
+      "judul": "Penyelenggaraan Praktik Klinik Keperawatan Mahasiswa Akademi Keperawatan Pemerintah Kabupaten Ngawi di RSUD dr. Soedono Provinsi Jawa Timur",
+      "tanggalSelesai": "2027-09-11T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 70,
+      "mitra": "UNIVERSITAS PGRI MADIUN",
+      "judul": "Pelaksanaan Tri Dharma Perguruan Tinggi",
+      "tanggalSelesai": "2027-09-22T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 71,
+      "mitra": "Fakultas Kedokteran Universitas Islam Indonesia Yogyakarta & RSUD Dr. Moewardi Surakarta",
+      "judul": "Pengelolaan dan Pelaksanaan Kepaniteraan Klinik Pendidikan Profesi dokter bagian Ilmu Kedokteran Forensik dan Medikolegal",
+      "tanggalSelesai": "2027-10-02T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 72,
+      "mitra": "Fakultas Kedokteran Universitas Airlangga & RSUD Dr. Soetomo Surabaya",
+      "judul": "Rumah Sakit Jejaring Pendidikan",
+      "tanggalSelesai": "2027-11-11T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/12-11-2018-1574731464-PKS2018__31344__PKS_dengan_FK_Unair_dan_RSUD_Dr__Soetomo_Surabaya_ttg_Pendidikan_dan_Pelayanan_Rumah_Sakit_Jejaring.pdf"
+    },
+    {
+      "rowIndex": 73,
+      "mitra": "RSUD dr. Mohammad Zyn Kabupaten Sampang",
+      "judul": "Penyelenggaraan Pelatihan Basic Trauma Cardiac Life Support (BTCLS) bagi Praktisi Kesehatan di Fasilitas Pelayanan Kesehatan",
+      "tanggalSelesai": "2027-11-19T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 74,
+      "mitra": "Forum Kerukunan Umat Beragama Kota Madiun",
+      "judul": "Pelayanan Kerohanian Pasien",
+      "tanggalSelesai": "2028-02-01T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 75,
+      "mitra": "Fakultas Ilmu Kesehatan Universitas ‘Aisyiyah Yogyakarta",
+      "judul": "Pelaksanaan Tri Dharma Perguruan Tinggi dalam Implementasi Merdeka Belajar Kampus Merdeka serta Pemberdayaan Lulusan",
+      "tanggalSelesai": "2028-01-02T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/09-12-2022-1674606243-PKS_Unisa_Yogyakarta.pdf"
+    },
+    {
+      "rowIndex": 76,
+      "mitra": "Fakultas Ilmu Kesehatan Universitas ‘Aisyiyah Yogyakarta",
+      "judul": "Addendum Pelaksanaan Tri Dharma Perguruan Tinggi dalam Implementasi Merdeka Belajar Kampus Merdeka serta Pemberdayaan Lulusan",
+      "tanggalSelesai": "2028-01-02T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/09-12-2022-1674606243-PKS_Unisa_Yogyakarta.pdf"
+    },
+    {
+      "rowIndex": 77,
+      "mitra": "Politeknik Insan Husada Surakarta",
+      "judul": "Pelaksanaan Tri Dharma Perguruan Tinggi",
+      "tanggalSelesai": "2028-01-02T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 78,
+      "mitra": "Fakultas Biologi Universitas Jenderal Soedirman",
+      "judul": "Kegiatan Merdeka Belajar Kampus Merdeka (MBKM)",
+      "tanggalSelesai": "2028-01-06T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 79,
+      "mitra": "PT Bank Pembangunan Daerah Jawa Timur Tbk Cabang Madiun",
+      "judul": "Fasilitas Pembayaran Pasien melalui Virtual Account",
+      "tanggalSelesai": "2028-01-08T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/30-06-2022-1674715878-PKS_Virtual_Account_Bank_Jatim.pdf"
+    },
+    {
+      "rowIndex": 80,
+      "mitra": "STIKES Rajekwesi Bojonegoro",
+      "judul": "Pengembangan di Bidang Pendidikan, Penelitian, dan Pelayanan Kesehatan",
+      "tanggalSelesai": "2028-01-09T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/02-01-2025-1739017950-PKS_STIKES_Rajekwesi_Bojonegoro.pdf"
+    },
+    {
+      "rowIndex": 81,
+      "mitra": "FAKULTAS KEDOKTERAN UNIVERSITAS ISLAM INDONESIA INDONESIA YOGYAKARTA & RUMAH SAKIT JIWA GRHASIA DINAS KESEHATAN DAERAH ISTIMEWA YOGYAKARTA",
+      "judul": "RUMAH SAKIT JIWA GRHASIA DINAS KESEHATAN DAERAH ISTIMEWA YOGYAKARTA SEBAGAI RUMAH SAKIT PENDIDIKAN AFILIASI FAKULTAS KEDOKTERAN UNIVERSITAS ISLAM INDONESIA YOGYAKARTA",
+      "tanggalSelesai": "2028-02-09T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 82,
+      "mitra": "Fakultas Ilmu Kesehatan Universitas Brawijaya",
+      "judul": "Penyelenggaraan Pendidikan, Penelitian dan Pengabdian Masyarakat di RSUD dr. Soedono Provinsi Jawa Timur sebagai Rumah Sakit Jejaring Pendidikan",
+      "tanggalSelesai": "2028-03-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/17-02-2025-1751335581-scan_PKS_Pengabdian_Masyarakat_Fikes_UB.pdf"
+    },
+    {
+      "rowIndex": 83,
+      "mitra": "Universitas Muhammadiyah Kudus",
+      "judul": "Pelaksanaan Tri Dharma Perguruan Tinggi",
+      "tanggalSelesai": "2028-04-08T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/31-08-2020-1602745891-PKS_Unmuh_Kudus.pdf"
+    },
+    {
+      "rowIndex": 84,
+      "mitra": "FK Universitas Islam Indonesia Yogyakarta & RSUD dr. Soehadi Prijonegoro Sragen",
+      "judul": "RSUD dr. Soehadi Prijonegoro Sragen sebagai Rumah Sakit Pendidikan Satelit RSUD dr. Soedono Madiun",
+      "tanggalSelesai": "2028-04-09T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/22-01-2018-1675150223-PKS_Tripartid_FK_UII_dan_RS_Soehadi_Prijonegoro_ttg_Program_Pendidikan_Dokter_di_RS_Jejaring.pdf"
+    },
+    {
+      "rowIndex": 85,
+      "mitra": "FK UII Yogyakarta & RSUD Dr. Soeroto Ngawi",
+      "judul": "RSUD dr. Soeroto Kabupaten Ngawi Sebagai Rumah Sakit Pendidikan Satelit Rumah Sakit Umum Daerah dr. Soedono Provinsi Jawa Timur",
+      "tanggalSelesai": "2028-04-09T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 86,
+      "mitra": "FK UII Yogyakarta & RSUD Wonosari",
+      "judul": "Pelaksanaan Program Pendidikan Dokter di Rumah Sakit Jejaring",
+      "tanggalSelesai": "2028-04-09T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/22-01-2018-1675149014-PKS_Tripartid_FK_UII_dan_RSUD_Wonosari_ttg_Program_Pendidikan_Dokter_di_RS_Jejaring.pdf"
+    },
+    {
+      "rowIndex": 87,
+      "mitra": "Politeknik Negeri Jember",
+      "judul": "Praktik Kerja lapang Mahasiswa Jurusan Kesehatan Politeknik Negeri Jember di RSUD dr. Soedono Madiun",
+      "tanggalSelesai": "2028-04-10T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/11-04-2022-1655364033-PKS_Politeknik_Negeri_Jember.pdf"
+    },
+    {
+      "rowIndex": 88,
+      "mitra": "Politeknik Kementerian Kesehatan Malang",
+      "judul": "PRAKTEK KLINIK MAHASISWA",
+      "tanggalSelesai": "2028-04-24T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/12-09-2025-1751949556-Scan_PKS_Poltekkes_Surabaya_ttg_Praktik_mahasiswa.pdf"
+    },
+    {
+      "rowIndex": 89,
+      "mitra": "Politeknik Kementerian Kesehatan Surakarta",
+      "judul": "Pelaksanaan Tri Dharma Perguruan Tinggi",
+      "tanggalSelesai": "2028-05-05T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/13-04-2020-1617851327-PKS_POLTEKKES_KEMENKES_SURAKARTA_2020-2022.pdf"
+    },
+    {
+      "rowIndex": 90,
+      "mitra": "Universitas Kusuma Husada Surakarta & 3",
+      "judul": "Pelaksanaan Tridharma Perguruan Tinggi",
+      "tanggalSelesai": "2028-05-09T00:00:00.000Z",
+      "status": "Proses Mitra",
+      "sumberSheet": "Kerjasama Manajemen"
+    },
+    {
+      "rowIndex": 91,
+      "mitra": "PT Bank Pembangunan Daerah Jawa Timur Tbk Cabang Madiun",
+      "judul": "Fasilitas Pembayaran Diklit melalui Virtual Account",
+      "tanggalSelesai": "2028-05-29T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/30-06-2022-1674715878-PKS_Virtual_Account_Bank_Jatim.pdf"
+    },
+    {
+      "rowIndex": 92,
+      "mitra": "Akademi Teknik Radiodiagnostik dan Radioterapi Bali",
+      "judul": "Pelaksanaan Tri Dharma Perguruan Tinggi",
+      "tanggalSelesai": "2028-06-02T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 93,
+      "mitra": "Politeknik Indonusa Surakarta",
+      "judul": "Pelaksanaan Tri Dharma Perguruan Tinggi",
+      "tanggalSelesai": "2028-06-02T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 94,
+      "mitra": "Politeknik Negeri Madiun",
+      "judul": "Pelaksanaan Tri Dharma Perguruan Tinggi",
+      "tanggalSelesai": "2028-06-23T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 95,
+      "mitra": "STIKES Muhammadiyah Bojonegoro",
+      "judul": "Penyelenggaraan Pendidikan, Pelatihan dan Penelitian",
+      "tanggalSelesai": "2028-07-03T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/03-07-2023-1690173884-PKS_Stikes_Muhammadiyah_Bojonegoro_2023.pdf"
+    },
+    {
+      "rowIndex": 96,
+      "mitra": "Poltekkes Kemenkes Semarang",
+      "judul": "Pelaksanaan Tridharma Perguruan Tinggi",
+      "tanggalSelesai": "2028-07-10T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 97,
+      "mitra": "Fakultas Vokasi Universitas Airlangga",
+      "judul": "Keg Pendidikan, Penelitian dan Pengabdian pada Masyarakat",
+      "tanggalSelesai": "2028-07-10T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/14-08-2020-1602746226-PKS_FAKULTAS_VOKASI_UNAIR.pdf"
+    },
+    {
+      "rowIndex": 98,
+      "mitra": "STIKes Pemkab Jombang",
+      "judul": "Penyelenggaraan Kegiatan Pelatihan dan Peningkatan Kompetensi",
+      "tanggalSelesai": "2025-07-29T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 99,
+      "mitra": "Fakultas Kedokteran Universitas Brawijaya & RSUD Dr. Saiful Anwar",
+      "judul": "Pendidikan, Pelayanan, Penelitian dan Pengabdian Masyarakat Rumah Sakit Jejaring",
+      "tanggalSelesai": "2028-07-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 100,
+      "mitra": "Poltekkes Kemenkes Surabaya",
+      "judul": "Praktik Mahasiswa Poltekkes Kemenkes Surabaya di RSUD dr. Soedono Provinsi Jawa Timur",
+      "tanggalSelesai": "2028-09-06T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/12-09-2025-1751949556-Scan_PKS_Poltekkes_Surabaya_ttg_Praktik_mahasiswa.pdf"
+    },
+    {
+      "rowIndex": 101,
+      "mitra": "Sekolah Tinggi Ilmu Kesehatan Bhakti Husada Mulia Madiun",
+      "judul": "Penyelenggaraan Kegiatan Pelatihan dan Peningkatan Kompetensi",
+      "tanggalSelesai": "2028-09-10T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 102,
+      "mitra": "Himpunan Perawat Endoskopi Gastrointestinal Indonesia",
+      "judul": "Penyelenggaraan Kegiatan Palatihan dan Peningkatan Kompetensi",
+      "tanggalSelesai": "2028-09-21T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen"
+    },
+    {
+      "rowIndex": 103,
+      "mitra": "DWP PPNI Jawa Timur",
+      "judul": "Penyelenggaraan Pendidikan, Pelatihan, Penelitian, Pengembangan dan Pengabdian Masyarakat Bidang Kesehatan",
+      "tanggalSelesai": "2028-10-25T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/25-10-2023-1700208165-Scan_PKS_DPW_PPNI_Jatim_ttg_Pelatihan_Bidang_Nakes_2023.pdf"
+    },
+    {
+      "rowIndex": 104,
+      "mitra": "Fakultas Matematika dan Ilmu Pengetuan Alam Universitas Brawijaya",
+      "judul": "Kegiatan Pendidikan, Penelitian dan Pengabdian Kepada Masyarakat, serta Peningkatan Kualitas SDM",
+      "tanggalSelesai": "2028-11-20T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 105,
+      "mitra": "Universitas Muhammadiyah Ponorogo",
+      "judul": "Praktik Klinik Keperawatan, Kebidanan dan Fisioterapi",
+      "tanggalSelesai": "2028-12-02T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 106,
+      "mitra": "STIKES Mitra Husada Karanganyar",
+      "judul": "Praktik Lapangan, Penelitian, Pengabdian kepada masy dan Magang utk Mahasiswa dan Dosen",
+      "tanggalSelesai": "2028-12-08T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 107,
+      "mitra": "Program Studi Farmasi Diploma Tiga Universitas Katolik Widya Mandala Surabaya Kampus Kota Madiun",
+      "judul": "Peningkatan Kompetensi Mahasiswa Prodi Farmasi Diploma Tiga",
+      "tanggalSelesai": "2028-12-08T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 108,
+      "mitra": "Fakultas  Biologi Universitas Gadjah Mada",
+      "judul": "Program Magang Mahasiswa",
+      "tanggalSelesai": "2029-01-01T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 109,
+      "mitra": "Fakultas Ilmu Keolahragaan dan Kesehatan Universitas Negeri Surabaya",
+      "judul": "Pelaksanaan Kegiatan Pendidikan, Penelitian, dan Pengabdian Masyarakat",
+      "tanggalSelesai": "2029-01-02T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 110,
+      "mitra": "STIKes Pemkab Jombang",
+      "judul": "Praktik Klinik Mahasiswa",
+      "tanggalSelesai": "2029-01-07T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 111,
+      "mitra": "STIKES Karya Husada Kediri",
+      "judul": "Praktik Klinik dan Praktik Profesi Mahasiswa Stikes Karya Husada Kediri di RSUD dr. Soedono Provinsi Jawa Timur",
+      "tanggalSelesai": "2029-01-09T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 112,
+      "mitra": "Fakultas Ilmu Kesehatan Universitas Muhammadiyah Malang",
+      "judul": "Pelaksanaan Praktek Klinik, Praktek Profesi, Penelitian dan Pengabdian Masyarakat di RSUD dr. Soedono",
+      "tanggalSelesai": "2029-10-02T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 113,
+      "mitra": "Fakultas Kesehatan Masyarakat Universitas Airlangga",
+      "judul": "Tri Dharma Perguruan Tinggi",
+      "tanggalSelesai": "2029-10-02T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 114,
+      "mitra": "PPNI Kota Madiun",
+      "judul": "Penyelenggaraan Kegiatan Pelatihan dan Peningkatan Kompetensi",
+      "tanggalSelesai": "2029-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/12-01-2026-1773109458-Scan_PKS_dengan_PPNI_kota_Madiun_ttg_Penyelenggaraan_Pelatihan.pdf"
+    },
+    {
+      "rowIndex": 115,
+      "mitra": "Himpunan Perawat Kamar Bedah indonesia Provinsi Jawa Timur",
+      "judul": "Penyelenggaraan Kegiatan Pelatihan dan Peningkatan Kompetensi",
+      "tanggalSelesai": "2029-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 116,
+      "mitra": "PT Telkom Indonesia (Persero) Tbk",
+      "judul": "Addendum Layanan Service Indihome Internet",
+      "tanggalSelesai": "",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 117,
+      "mitra": "RSUD Haji Surabaya Provinsi Jawa Timur",
+      "judul": "Nota Kesepahaman Replikasi Pembangunan Zona Integritas (ZI) Menuju WBK/WBBM",
+      "tanggalSelesai": "",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 118,
+      "mitra": "Biro Keuangan Sekretariat Jenderal DPR RI",
+      "judul": "Nota Kesepahaman Replikasi Pembangunan Zona Integritas (ZI) Menuju WBK/WBBM",
+      "tanggalSelesai": "",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/17-07-2024-1723608319-MoU_Replikasi_ZI_Biro_Keuangan_Setjen_DPR_RI.pdf"
+    },
+    {
+      "rowIndex": 119,
+      "mitra": "RSUD Dungus",
+      "judul": "Nota Kesepahaman Replikasi Pembangunan Zona Integritas (ZI) Menuju WBK/WBBM",
+      "tanggalSelesai": "",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 120,
+      "mitra": "RSUD Kota Madiun",
+      "judul": "Nota Kesepahaman Replikasi Pembangunan Zona Integritas (ZI) Menuju WBK/WBBM",
+      "tanggalSelesai": "",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/01-04-2024-1722565637-Scan_PKS_dengan_RSUD_Kota_Madiun_ttg_Replikasi_ZI.pdf"
+    },
+    {
+      "rowIndex": 121,
+      "mitra": "UPT Cabang Dinas Kelautan dan Perikanan Kabupaten Tuban",
+      "judul": "Nota Kesepahaman Replikasi Pembangunan Zona Integritas (ZI) Menuju WBK/WBBM",
+      "tanggalSelesai": "",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 122,
+      "mitra": "RSUD Sumberglagah",
+      "judul": "Nota Kesepahaman Replikasi Pembangunan Zona Integritas (ZI) Menuju WBK/WBBM",
+      "tanggalSelesai": "",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 123,
+      "mitra": "UPT Pelabuhan Perikanan Pantai Bulu Tuban",
+      "judul": "Nota Kesepahaman Replikasi Pembangunan Zona Integritas (ZI) Menuju WBK/WBBM",
+      "tanggalSelesai": "",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/26-07-2024-1723608510-MoU_Replikasi_ZI_UPT_Pelabuhan_Perikanan_Pantai_Bulu_Tuban.pdf"
+    },
+    {
+      "rowIndex": 124,
+      "mitra": "Satuan Polisi Pamong Praja Provinsi Jawa Timur",
+      "judul": "Nota Kesepahaman Replikasi Pembangunan Zona Integritas (ZI) Menuju WBK/WBBM",
+      "tanggalSelesai": "",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 125,
+      "mitra": "RSUD Wonosari & Fakultas Kedokteran Universitas Islam Indonesia",
+      "judul": "Keputusan Bersama tentang Pencegahan dan Penanganan Perundungan terhadap Dokter Muda Fakultas Kedokteran Universitas Islam Indonesia di RSUD Wonosari",
+      "tanggalSelesai": "",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 126,
+      "mitra": "RSUD Haji Prov Jatim",
+      "judul": "Penyelenggaraan Pelatihan Perawat Penanggung Jawab Asuhan (PPJA) bagi Praktisi Kesehatan di Fasilitas Pelayanan Kesehatan P",
+      "tanggalSelesai": "",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 127,
+      "mitra": "RSUD Haji Prov Jatim",
+      "judul": "Penyelenggaraan Pelatihan Basic Trauma Cardiac Life Support (BTCLS) bagi Praktisi Kesehatan di Fasilitas Pelayanan Kesehatan",
+      "tanggalSelesai": "",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 128,
+      "mitra": "Balai Monitor Spektrum Frekuensi Radio Kelas I Surabaya",
+      "judul": "Pemanfaatan Lahan dan /atau Ruangan untuk Penempatan dan Pengoperasian Sistem Monitoring Frekuensi Radio Direktorat Jenderal Sumber Daya dan Perangkat Pos dan Informatika Balai Monitor Spektrum Frekuensi Radio Kelas I Surabaya",
+      "tanggalSelesai": "2026-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 129,
+      "mitra": "PT. Bank Pembangunan Daerah Jatim Cabang Madiun",
+      "judul": "Sewa Lokasi untuk Ruang ATM di lingkungan RSUD dr. Soedono Provinsi Jawa Timur",
+      "tanggalSelesai": "2028-04-01T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 130,
+      "mitra": "Dharma Wanita Persatuan RSSM",
+      "judul": "Pemakaian Lahan di Lingkungan RSUD dr. Soedono Provinsi Jawa Timur",
+      "tanggalSelesai": "2028-03-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 131,
+      "mitra": "PT Grab Teknologi Indonesia",
+      "judul": "Pemakaian Lahan di Lingkungan RSUD dr. Soedono Provinsi Jawa Timur",
+      "tanggalSelesai": "2027-12-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/23-12-2024-1739018252-Addendum_II_PKS_Sewa_DWP_RSSM.pdf"
+    },
+    {
+      "rowIndex": 132,
+      "mitra": "PT. Bank Pembangunan Daerah Jatim Cabang Madiun",
+      "judul": "Sewa Menyewa Tanah dan Bangunan untuk Keperluan Kantor \nKas Bank Jatim di RSUD dr. Soedono Madiun",
+      "tanggalSelesai": "2025-12-31T00:00:00.000Z",
+      "status": "Proses Oleh TU",
+      "sumberSheet": "Kerjasama Manajemen"
+    },
+    {
+      "rowIndex": 133,
+      "mitra": "PT Grab Teknologi Indonesia",
+      "judul": "Perjanjian Kerahasiaan",
+      "tanggalSelesai": "2026-01-17T00:00:00.000Z",
+      "status": "Perlu Proses Perpanjangan",
+      "sumberSheet": "Kerjasama Manajemen"
+    },
+    {
+      "rowIndex": 134,
+      "mitra": "PT Swakarya Sinar Sejahtera",
+      "judul": "Pengelolaan Parkir di Lingkungan Instalasi Merpati RSUD dr. Soedono Provinsi Jawa Timur",
+      "tanggalSelesai": "2026-02-28T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/27-02-2023-1680231612-PKS_Parkir_Merpati_2023.pdf"
+    },
+    {
+      "rowIndex": 135,
+      "mitra": "PT Swakarya Sinar Sejahtera",
+      "judul": "Pengelolaan Parkir di Lingkungan RSUD dr. Soedono Provinsi Jawa Timur (Parkir Irja)",
+      "tanggalSelesai": "2026-10-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/01-11-2022-1673857219-PKS_Parkir_Irja_PT_Swakarya_Sinar_Sejahtera.pdf"
+    },
+    {
+      "rowIndex": 136,
+      "mitra": "PT Swakarya Sinar Sejahtera",
+      "judul": "Addendum Pengelolaan Parkir di Lingkungan RSUD dr. Soedono Provinsi Jawa Timur",
+      "tanggalSelesai": "2026-10-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/01-11-2022-1673857219-PKS_Parkir_Irja_PT_Swakarya_Sinar_Sejahtera.pdf"
+    },
+    {
+      "rowIndex": 137,
+      "mitra": "Komisi Akreditasi Rumah Sakit",
+      "judul": "Pelaksanaan Survey Akreditasi Rumah Sakit KARS",
+      "tanggalSelesai": "2026-11-04T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 138,
+      "mitra": "KPRI Husada Sejahtera",
+      "judul": "Pemakaian Lahan di Lingkungan RSUD dr. Soedono Provinsi Jawa Timur",
+      "tanggalSelesai": "2027-05-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/19-05-2025-1751335852-scan_PKS_Sewa_Lahan_dengan_KPRI_Husada_Sejahtera.pdf"
+    },
+    {
+      "rowIndex": 139,
+      "mitra": "KPRI Husada Sejahtera",
+      "judul": "Addendum",
+      "tanggalSelesai": "2027-05-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/19-05-2025-1751335852-scan_PKS_Sewa_Lahan_dengan_KPRI_Husada_Sejahtera.pdf"
+    },
+    {
+      "rowIndex": 140,
+      "mitra": "PT Alat Bantu Dengar Indonesia",
+      "judul": "Pelayanan Pengadaan dan Perawatan Alat Bantu Dengar",
+      "tanggalSelesai": "2027-10-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 141,
+      "mitra": "KPRI \"Husada Sejahtera\"",
+      "judul": "Layanan Pengantaran Obat",
+      "tanggalSelesai": "2028-03-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 142,
+      "mitra": "KPRI \"Husada Sejahtera\"",
+      "judul": "Addendum Layanan Pengantaran Obat",
+      "tanggalSelesai": "2028-03-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen"
+    },
+    {
+      "rowIndex": 143,
+      "mitra": "KPRI \"Husada Sejahtera\"",
+      "judul": "Pengelolaan Ambulans Jenazah di RSUD dr. Soedono Provinsi Jawa Timur",
+      "tanggalSelesai": "2028-10-09T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "belum ada scan PKS"
+    },
+    {
+      "rowIndex": 144,
+      "mitra": "KPRI \"Husada Sejahtera\"",
+      "judul": "Penggunaan Lahan Parkir Ambulans (Jenazah dan Pasien) di Lingkungan RSUD dr. Soedono Provinsi Jawa Timur",
+      "tanggalSelesai": "2029-01-31T00:00:00.000Z",
+      "status": "Berjalan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/22-03-2024-1718938472-Scan_Addendum_PKS_KPRI_Ambulans_Jenazah-1.pdf"
+    },
+    {
+      "rowIndex": 145,
+      "mitra": "FK UII & RS Bhayangkara Polda DIY",
+      "judul": "RS Bhayangkara Polda DIY sebagai RS afiliasi FK UII",
+      "tanggalSelesai": "2022-07-28T00:00:00.000Z",
+      "status": "Perlu Proses Perpanjangan",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "rumkitdiy@gmail.com"
+    },
+    {
+      "rowIndex": 146,
+      "mitra": "Kepolisian Resort Madiun Kota & PT Jasa Raharja",
+      "judul": "Penanganan korban Kecelakaan Lalu Lintas melalui Aplikasi “TACS” (Traffic Accident Claim System)",
+      "tanggalSelesai": "2022-10-04T00:00:00.000Z",
+      "status": "Perlu Proses Perpanjangan",
+      "sumberSheet": "Kerjasama Manajemen"
+    },
+    {
+      "rowIndex": 147,
+      "mitra": "RSAL Dr. Ramelan Surabaya",
+      "judul": "Rumah Sakit Jejaring Pendidikan",
+      "tanggalSelesai": "2022-12-02T00:00:00.000Z",
+      "status": "Tidak Diperpanjang",
+      "sumberSheet": "Kerjasama Manajemen"
+    },
+    {
+      "rowIndex": 148,
+      "mitra": "Badan Kepegawaian dan Pengembangan Sumber Daya Manusia Pemerintah Kota Madiun & BKPSDM Kota Madiun",
+      "judul": "Penyelenggaraan Magang Krja / On The Job Training (OJT) Aparatur Sipil Negara Di Lingkungan Pemerintah Kota Madiun Tahun Anggaran 2024",
+      "tanggalSelesai": "2024-12-31T00:00:00.000Z",
+      "status": "Tidak Diperpanjang",
+      "sumberSheet": "Kerjasama Manajemen",
+      "url": "bkpsdm@madiunkota.go.id"
+    }
+  ]
+}

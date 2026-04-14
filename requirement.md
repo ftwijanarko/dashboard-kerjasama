@@ -1,21 +1,11 @@
 # Description:
 aku mendapat project dari teman untuk menambahkan tombol untuk melihat dan download dokumen dari dashboard ini.
-sayangnya aku tidak mendapat akses database untuk inquiry dokumen yang akan ditampilkan.
-aku hanya diberi akses web arsip dokumen, jadi kita akan scraping halaman web untuk mengintegrasikan dashboard dan berkas dokumennya.
+URL dokumen diambil langsung dari Google Spreadsheet yang sama (bukan scraping SIPEDAS).
 
 # Tombol:
-tambahkan tombol "lihat" dan "downlod" di kolom "Aksi"
-
-# Key refference:
-gunakan "Dasar Hukum Mitra 1" dan "Dasar Hukum Mitra 2" untuk nanti digunakan sebagai pencarian dokumen
+tambahkan tombol "lihat" dan "download" di kolom "Aksi"
 
 # sumber dokumen
-inquiry ke https://apprssm.rssoedono.jatimprov.go.id/sipedas/Suratkerjasama/tampil untuk mendapatkan semua list dokumen (file dokumen belum ada di inquiry ini).
-inquiry dari /sipedas/Suratkerjasama/tampil akan menghasilkan string html seperti file sipedas.Suratkerjasama.tampil.html.
-nomor dasar hukum ada di tag <td> ketiga.
-untuk melihat daftar dokumen dari setiap kerjasama, gunakan attribut data-id yang ada di tag <button> yang memiliki class "file-datasuratkerjasama".
-dari id yang didapat, inquiry ke https://apprssm.rssoedono.jatimprov.go.id/sipedas/Suratkerjasama/file dengan payload form-data:
-id={selectedId}
-hasil inquiry ke sipedas/Suratkerjasama/file akan menghasilkan string seperti yang ada di file sipedas.Suratkerjasama.file.html.
-satu kerja sama memiliki lebih dari satu file. 
-dapatkan link download file / href yang ada di dalam tag <a>
+dokumen url ada di spreadsheet yang sama di https://docs.google.com/spreadsheets/d/1sKY7LS9IsiCp8jeTIcus_BQs5-3i5xG7HFGnEg4Pla8/edit?usp=sharing. url ada di column N di sheet "Kerjasama Manajemen UPDATE" dan column L di sheet "Kerjasama Klinis UPDATE" dengan column header di row 1 dengan nama "URL". asset url berupa file pdf dengan link seperti berikut: https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/26-04-2023-1690172543-PKS_Wynacom_LIS_2023.pdf.
+ada kemungkinan lebih dari 1 url dengan delimiter coma "," atau ", " dengan contoh:
+https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/26-04-2023-1690172543-PKS_Wynacom_LIS_2023.pdf, https://apprssm.rssoedono.jatimprov.go.id/sipedas/assets/file_surat_kerjasama/26-04-2023-1690172543-PKS_Wynacom_LIS_2023.pdf

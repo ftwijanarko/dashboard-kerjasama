@@ -1,7 +1,7 @@
 // GANTI SELURUH ISI FILE detail-script.js DENGAN KODE INI
 
 // !!! PENTING: Ganti URL di bawah dengan URL Web App Anda !!!
-const WEB_APP_URL = 'https://script.google.com/macros/s/AKfycby_4XcSdK0FddjZxi1sSI4wdHmTfZfkU22tFu3DtlN3XqfadNiEngJYCu4qaEJakr7l/exec';
+const WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbysilxhoaT7h1mrYBBZ7EdU-V_Et2YaRQL8gxc1ja6Yr6dhBtFHb_yACaoVgj8dD2wo/exec';
 // !!! ----------------------------------------------- !!!
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -88,13 +88,15 @@ document.addEventListener('DOMContentLoaded', () => {
             const row = document.createElement('tr');
             const tglSelesai = item.tanggalSelesai ? new Date(item.tanggalSelesai).toLocaleDateString('id-ID', { day: '2-digit', month: 'long', year: 'numeric' }) : 'N/A';
             const statusClass = `status-${(item.status || 'default').toLowerCase().replace(/ /g, '-')}`;
+            const hasDoc = parseDocumentUrls(item.url).length > 0;
+            const docBtn = hasDoc ? ` <button class="doc-btn" data-index="${index}">Dokumen</button>` : '';
             row.innerHTML = `
                 <td>${item.mitra}</td>
                 <td>${item.judul}</td>
                 <td>${tglSelesai}</td>
                 <td><span class="status-pill ${statusClass}">${item.status || 'N/A'}</span></td>
                 <td>${item.sumberSheet}</td>
-                <td><button class="detail-btn" data-index="${index}">Detail</button> <button class="doc-btn" data-index="${index}">Dokumen</button></td>
+                <td><button class="detail-btn" data-index="${index}">Detail</button>${docBtn}</td>
             `;
             tableBody.appendChild(row);
         });

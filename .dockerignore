@@ -5,3 +5,6 @@ README.md
 requirement.md
 sipedas.Suratkerjasama.tampil.html
 sipedas.Suratkerjasama.file.html
+*.gs
+*.csv
+web_app_response.json
